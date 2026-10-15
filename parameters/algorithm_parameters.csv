@@ -1,0 +1,1105 @@
+﻿algorithm,scope,outer_fold,parameter,value_json
+Logistic regression,selected_outer_fold,1.0,C,10.0
+Logistic regression,selected_outer_fold,1.0,class_weight,null
+Logistic regression,selected_outer_fold,1.0,dual,false
+Logistic regression,selected_outer_fold,1.0,fit_intercept,true
+Logistic regression,selected_outer_fold,1.0,intercept_scaling,1
+Logistic regression,selected_outer_fold,1.0,l1_ratio,0.0
+Logistic regression,selected_outer_fold,1.0,max_iter,5000
+Logistic regression,selected_outer_fold,1.0,n_jobs,null
+Logistic regression,selected_outer_fold,1.0,penalty,"""deprecated"""
+Logistic regression,selected_outer_fold,1.0,random_state,20260926
+Logistic regression,selected_outer_fold,1.0,solver,"""lbfgs"""
+Logistic regression,selected_outer_fold,1.0,tol,0.0001
+Logistic regression,selected_outer_fold,1.0,verbose,0
+Logistic regression,selected_outer_fold,1.0,warm_start,false
+Logistic regression,selected_outer_fold,2.0,C,1.0
+Logistic regression,selected_outer_fold,2.0,class_weight,null
+Logistic regression,selected_outer_fold,2.0,dual,false
+Logistic regression,selected_outer_fold,2.0,fit_intercept,true
+Logistic regression,selected_outer_fold,2.0,intercept_scaling,1
+Logistic regression,selected_outer_fold,2.0,l1_ratio,0.0
+Logistic regression,selected_outer_fold,2.0,max_iter,5000
+Logistic regression,selected_outer_fold,2.0,n_jobs,null
+Logistic regression,selected_outer_fold,2.0,penalty,"""deprecated"""
+Logistic regression,selected_outer_fold,2.0,random_state,20260926
+Logistic regression,selected_outer_fold,2.0,solver,"""lbfgs"""
+Logistic regression,selected_outer_fold,2.0,tol,0.0001
+Logistic regression,selected_outer_fold,2.0,verbose,0
+Logistic regression,selected_outer_fold,2.0,warm_start,false
+Logistic regression,selected_outer_fold,3.0,C,10.0
+Logistic regression,selected_outer_fold,3.0,class_weight,null
+Logistic regression,selected_outer_fold,3.0,dual,false
+Logistic regression,selected_outer_fold,3.0,fit_intercept,true
+Logistic regression,selected_outer_fold,3.0,intercept_scaling,1
+Logistic regression,selected_outer_fold,3.0,l1_ratio,0.0
+Logistic regression,selected_outer_fold,3.0,max_iter,5000
+Logistic regression,selected_outer_fold,3.0,n_jobs,null
+Logistic regression,selected_outer_fold,3.0,penalty,"""deprecated"""
+Logistic regression,selected_outer_fold,3.0,random_state,20260926
+Logistic regression,selected_outer_fold,3.0,solver,"""lbfgs"""
+Logistic regression,selected_outer_fold,3.0,tol,0.0001
+Logistic regression,selected_outer_fold,3.0,verbose,0
+Logistic regression,selected_outer_fold,3.0,warm_start,false
+Logistic regression,selected_outer_fold,4.0,C,0.1
+Logistic regression,selected_outer_fold,4.0,class_weight,null
+Logistic regression,selected_outer_fold,4.0,dual,false
+Logistic regression,selected_outer_fold,4.0,fit_intercept,true
+Logistic regression,selected_outer_fold,4.0,intercept_scaling,1
+Logistic regression,selected_outer_fold,4.0,l1_ratio,0.0
+Logistic regression,selected_outer_fold,4.0,max_iter,5000
+Logistic regression,selected_outer_fold,4.0,n_jobs,null
+Logistic regression,selected_outer_fold,4.0,penalty,"""deprecated"""
+Logistic regression,selected_outer_fold,4.0,random_state,20260926
+Logistic regression,selected_outer_fold,4.0,solver,"""lbfgs"""
+Logistic regression,selected_outer_fold,4.0,tol,0.0001
+Logistic regression,selected_outer_fold,4.0,verbose,0
+Logistic regression,selected_outer_fold,4.0,warm_start,false
+Logistic regression,selected_outer_fold,5.0,C,10.0
+Logistic regression,selected_outer_fold,5.0,class_weight,null
+Logistic regression,selected_outer_fold,5.0,dual,false
+Logistic regression,selected_outer_fold,5.0,fit_intercept,true
+Logistic regression,selected_outer_fold,5.0,intercept_scaling,1
+Logistic regression,selected_outer_fold,5.0,l1_ratio,0.0
+Logistic regression,selected_outer_fold,5.0,max_iter,5000
+Logistic regression,selected_outer_fold,5.0,n_jobs,null
+Logistic regression,selected_outer_fold,5.0,penalty,"""deprecated"""
+Logistic regression,selected_outer_fold,5.0,random_state,20260926
+Logistic regression,selected_outer_fold,5.0,solver,"""lbfgs"""
+Logistic regression,selected_outer_fold,5.0,tol,0.0001
+Logistic regression,selected_outer_fold,5.0,verbose,0
+Logistic regression,selected_outer_fold,5.0,warm_start,false
+Logistic regression,fixed_not_searched,,class_weight,null
+Logistic regression,fixed_not_searched,,dual,false
+Logistic regression,fixed_not_searched,,fit_intercept,true
+Logistic regression,fixed_not_searched,,intercept_scaling,1
+Logistic regression,fixed_not_searched,,l1_ratio,0.0
+Logistic regression,fixed_not_searched,,max_iter,5000
+Logistic regression,fixed_not_searched,,n_jobs,null
+Logistic regression,fixed_not_searched,,penalty,"""deprecated"""
+Logistic regression,fixed_not_searched,,random_state,20260926
+Logistic regression,fixed_not_searched,,solver,"""lbfgs"""
+Logistic regression,fixed_not_searched,,tol,0.0001
+Logistic regression,fixed_not_searched,,verbose,0
+Logistic regression,fixed_not_searched,,warm_start,false
+Logistic regression,search_grid,,model__C,"[0.01, 0.1, 1, 10, 100]"
+Naive Bayes,selected_outer_fold,1.0,priors,null
+Naive Bayes,selected_outer_fold,1.0,var_smoothing,1e-09
+Naive Bayes,selected_outer_fold,2.0,priors,null
+Naive Bayes,selected_outer_fold,2.0,var_smoothing,1e-09
+Naive Bayes,selected_outer_fold,3.0,priors,null
+Naive Bayes,selected_outer_fold,3.0,var_smoothing,1e-09
+Naive Bayes,selected_outer_fold,4.0,priors,null
+Naive Bayes,selected_outer_fold,4.0,var_smoothing,1e-09
+Naive Bayes,selected_outer_fold,5.0,priors,null
+Naive Bayes,selected_outer_fold,5.0,var_smoothing,0.001
+Naive Bayes,fixed_not_searched,,priors,null
+Naive Bayes,search_grid,,model__var_smoothing,"[1e-09, 1e-06, 0.001]"
+SVM,selected_outer_fold,1.0,C,1
+SVM,selected_outer_fold,1.0,break_ties,false
+SVM,selected_outer_fold,1.0,cache_size,200
+SVM,selected_outer_fold,1.0,class_weight,null
+SVM,selected_outer_fold,1.0,coef0,0.0
+SVM,selected_outer_fold,1.0,decision_function_shape,"""ovr"""
+SVM,selected_outer_fold,1.0,degree,3
+SVM,selected_outer_fold,1.0,gamma,0.1
+SVM,selected_outer_fold,1.0,kernel,"""rbf"""
+SVM,selected_outer_fold,1.0,max_iter,-1
+SVM,selected_outer_fold,1.0,probability,false
+SVM,selected_outer_fold,1.0,random_state,20260926
+SVM,selected_outer_fold,1.0,shrinking,true
+SVM,selected_outer_fold,1.0,tol,0.001
+SVM,selected_outer_fold,1.0,verbose,false
+SVM,selected_outer_fold,2.0,C,0.1
+SVM,selected_outer_fold,2.0,break_ties,false
+SVM,selected_outer_fold,2.0,cache_size,200
+SVM,selected_outer_fold,2.0,class_weight,null
+SVM,selected_outer_fold,2.0,coef0,0.0
+SVM,selected_outer_fold,2.0,decision_function_shape,"""ovr"""
+SVM,selected_outer_fold,2.0,degree,3
+SVM,selected_outer_fold,2.0,gamma,0.1
+SVM,selected_outer_fold,2.0,kernel,"""rbf"""
+SVM,selected_outer_fold,2.0,max_iter,-1
+SVM,selected_outer_fold,2.0,probability,false
+SVM,selected_outer_fold,2.0,random_state,20260926
+SVM,selected_outer_fold,2.0,shrinking,true
+SVM,selected_outer_fold,2.0,tol,0.001
+SVM,selected_outer_fold,2.0,verbose,false
+SVM,selected_outer_fold,3.0,C,1
+SVM,selected_outer_fold,3.0,break_ties,false
+SVM,selected_outer_fold,3.0,cache_size,200
+SVM,selected_outer_fold,3.0,class_weight,null
+SVM,selected_outer_fold,3.0,coef0,0.0
+SVM,selected_outer_fold,3.0,decision_function_shape,"""ovr"""
+SVM,selected_outer_fold,3.0,degree,3
+SVM,selected_outer_fold,3.0,gamma,"""scale"""
+SVM,selected_outer_fold,3.0,kernel,"""rbf"""
+SVM,selected_outer_fold,3.0,max_iter,-1
+SVM,selected_outer_fold,3.0,probability,false
+SVM,selected_outer_fold,3.0,random_state,20260926
+SVM,selected_outer_fold,3.0,shrinking,true
+SVM,selected_outer_fold,3.0,tol,0.001
+SVM,selected_outer_fold,3.0,verbose,false
+SVM,selected_outer_fold,4.0,C,0.1
+SVM,selected_outer_fold,4.0,break_ties,false
+SVM,selected_outer_fold,4.0,cache_size,200
+SVM,selected_outer_fold,4.0,class_weight,null
+SVM,selected_outer_fold,4.0,coef0,0.0
+SVM,selected_outer_fold,4.0,decision_function_shape,"""ovr"""
+SVM,selected_outer_fold,4.0,degree,3
+SVM,selected_outer_fold,4.0,gamma,"""scale"""
+SVM,selected_outer_fold,4.0,kernel,"""rbf"""
+SVM,selected_outer_fold,4.0,max_iter,-1
+SVM,selected_outer_fold,4.0,probability,false
+SVM,selected_outer_fold,4.0,random_state,20260926
+SVM,selected_outer_fold,4.0,shrinking,true
+SVM,selected_outer_fold,4.0,tol,0.001
+SVM,selected_outer_fold,4.0,verbose,false
+SVM,selected_outer_fold,5.0,C,1
+SVM,selected_outer_fold,5.0,break_ties,false
+SVM,selected_outer_fold,5.0,cache_size,200
+SVM,selected_outer_fold,5.0,class_weight,null
+SVM,selected_outer_fold,5.0,coef0,0.0
+SVM,selected_outer_fold,5.0,decision_function_shape,"""ovr"""
+SVM,selected_outer_fold,5.0,degree,3
+SVM,selected_outer_fold,5.0,gamma,0.1
+SVM,selected_outer_fold,5.0,kernel,"""rbf"""
+SVM,selected_outer_fold,5.0,max_iter,-1
+SVM,selected_outer_fold,5.0,probability,false
+SVM,selected_outer_fold,5.0,random_state,20260926
+SVM,selected_outer_fold,5.0,shrinking,true
+SVM,selected_outer_fold,5.0,tol,0.001
+SVM,selected_outer_fold,5.0,verbose,false
+SVM,fixed_not_searched,,break_ties,false
+SVM,fixed_not_searched,,cache_size,200
+SVM,fixed_not_searched,,class_weight,null
+SVM,fixed_not_searched,,coef0,0.0
+SVM,fixed_not_searched,,decision_function_shape,"""ovr"""
+SVM,fixed_not_searched,,degree,3
+SVM,fixed_not_searched,,kernel,"""rbf"""
+SVM,fixed_not_searched,,max_iter,-1
+SVM,fixed_not_searched,,probability,false
+SVM,fixed_not_searched,,random_state,20260926
+SVM,fixed_not_searched,,shrinking,true
+SVM,fixed_not_searched,,tol,0.001
+SVM,fixed_not_searched,,verbose,false
+SVM,search_grid,,model__C,"[0.1, 1, 10]"
+SVM,search_grid,,model__gamma,"[""scale"", 0.1]"
+KNN,selected_outer_fold,1.0,algorithm,"""auto"""
+KNN,selected_outer_fold,1.0,leaf_size,30
+KNN,selected_outer_fold,1.0,metric,"""minkowski"""
+KNN,selected_outer_fold,1.0,metric_params,null
+KNN,selected_outer_fold,1.0,n_jobs,null
+KNN,selected_outer_fold,1.0,n_neighbors,15
+KNN,selected_outer_fold,1.0,p,2
+KNN,selected_outer_fold,1.0,weights,"""distance"""
+KNN,selected_outer_fold,2.0,algorithm,"""auto"""
+KNN,selected_outer_fold,2.0,leaf_size,30
+KNN,selected_outer_fold,2.0,metric,"""minkowski"""
+KNN,selected_outer_fold,2.0,metric_params,null
+KNN,selected_outer_fold,2.0,n_jobs,null
+KNN,selected_outer_fold,2.0,n_neighbors,9
+KNN,selected_outer_fold,2.0,p,2
+KNN,selected_outer_fold,2.0,weights,"""distance"""
+KNN,selected_outer_fold,3.0,algorithm,"""auto"""
+KNN,selected_outer_fold,3.0,leaf_size,30
+KNN,selected_outer_fold,3.0,metric,"""minkowski"""
+KNN,selected_outer_fold,3.0,metric_params,null
+KNN,selected_outer_fold,3.0,n_jobs,null
+KNN,selected_outer_fold,3.0,n_neighbors,15
+KNN,selected_outer_fold,3.0,p,2
+KNN,selected_outer_fold,3.0,weights,"""distance"""
+KNN,selected_outer_fold,4.0,algorithm,"""auto"""
+KNN,selected_outer_fold,4.0,leaf_size,30
+KNN,selected_outer_fold,4.0,metric,"""minkowski"""
+KNN,selected_outer_fold,4.0,metric_params,null
+KNN,selected_outer_fold,4.0,n_jobs,null
+KNN,selected_outer_fold,4.0,n_neighbors,15
+KNN,selected_outer_fold,4.0,p,2
+KNN,selected_outer_fold,4.0,weights,"""distance"""
+KNN,selected_outer_fold,5.0,algorithm,"""auto"""
+KNN,selected_outer_fold,5.0,leaf_size,30
+KNN,selected_outer_fold,5.0,metric,"""minkowski"""
+KNN,selected_outer_fold,5.0,metric_params,null
+KNN,selected_outer_fold,5.0,n_jobs,null
+KNN,selected_outer_fold,5.0,n_neighbors,15
+KNN,selected_outer_fold,5.0,p,2
+KNN,selected_outer_fold,5.0,weights,"""distance"""
+KNN,fixed_not_searched,,algorithm,"""auto"""
+KNN,fixed_not_searched,,leaf_size,30
+KNN,fixed_not_searched,,metric,"""minkowski"""
+KNN,fixed_not_searched,,metric_params,null
+KNN,fixed_not_searched,,n_jobs,null
+KNN,fixed_not_searched,,p,2
+KNN,search_grid,,model__n_neighbors,"[3, 5, 9, 15]"
+KNN,search_grid,,model__weights,"[""uniform"", ""distance""]"
+Random forest,selected_outer_fold,1.0,bootstrap,true
+Random forest,selected_outer_fold,1.0,ccp_alpha,0.0
+Random forest,selected_outer_fold,1.0,class_weight,null
+Random forest,selected_outer_fold,1.0,criterion,"""gini"""
+Random forest,selected_outer_fold,1.0,max_depth,null
+Random forest,selected_outer_fold,1.0,max_features,"""sqrt"""
+Random forest,selected_outer_fold,1.0,max_leaf_nodes,null
+Random forest,selected_outer_fold,1.0,max_samples,null
+Random forest,selected_outer_fold,1.0,min_impurity_decrease,0.0
+Random forest,selected_outer_fold,1.0,min_samples_leaf,2
+Random forest,selected_outer_fold,1.0,min_samples_split,2
+Random forest,selected_outer_fold,1.0,min_weight_fraction_leaf,0.0
+Random forest,selected_outer_fold,1.0,monotonic_cst,null
+Random forest,selected_outer_fold,1.0,n_estimators,200
+Random forest,selected_outer_fold,1.0,n_jobs,1
+Random forest,selected_outer_fold,1.0,oob_score,false
+Random forest,selected_outer_fold,1.0,random_state,20260926
+Random forest,selected_outer_fold,1.0,verbose,0
+Random forest,selected_outer_fold,1.0,warm_start,false
+Random forest,selected_outer_fold,2.0,bootstrap,true
+Random forest,selected_outer_fold,2.0,ccp_alpha,0.0
+Random forest,selected_outer_fold,2.0,class_weight,null
+Random forest,selected_outer_fold,2.0,criterion,"""gini"""
+Random forest,selected_outer_fold,2.0,max_depth,null
+Random forest,selected_outer_fold,2.0,max_features,"""sqrt"""
+Random forest,selected_outer_fold,2.0,max_leaf_nodes,null
+Random forest,selected_outer_fold,2.0,max_samples,null
+Random forest,selected_outer_fold,2.0,min_impurity_decrease,0.0
+Random forest,selected_outer_fold,2.0,min_samples_leaf,5
+Random forest,selected_outer_fold,2.0,min_samples_split,2
+Random forest,selected_outer_fold,2.0,min_weight_fraction_leaf,0.0
+Random forest,selected_outer_fold,2.0,monotonic_cst,null
+Random forest,selected_outer_fold,2.0,n_estimators,200
+Random forest,selected_outer_fold,2.0,n_jobs,1
+Random forest,selected_outer_fold,2.0,oob_score,false
+Random forest,selected_outer_fold,2.0,random_state,20260926
+Random forest,selected_outer_fold,2.0,verbose,0
+Random forest,selected_outer_fold,2.0,warm_start,false
+Random forest,selected_outer_fold,3.0,bootstrap,true
+Random forest,selected_outer_fold,3.0,ccp_alpha,0.0
+Random forest,selected_outer_fold,3.0,class_weight,null
+Random forest,selected_outer_fold,3.0,criterion,"""gini"""
+Random forest,selected_outer_fold,3.0,max_depth,null
+Random forest,selected_outer_fold,3.0,max_features,"""sqrt"""
+Random forest,selected_outer_fold,3.0,max_leaf_nodes,null
+Random forest,selected_outer_fold,3.0,max_samples,null
+Random forest,selected_outer_fold,3.0,min_impurity_decrease,0.0
+Random forest,selected_outer_fold,3.0,min_samples_leaf,2
+Random forest,selected_outer_fold,3.0,min_samples_split,2
+Random forest,selected_outer_fold,3.0,min_weight_fraction_leaf,0.0
+Random forest,selected_outer_fold,3.0,monotonic_cst,null
+Random forest,selected_outer_fold,3.0,n_estimators,200
+Random forest,selected_outer_fold,3.0,n_jobs,1
+Random forest,selected_outer_fold,3.0,oob_score,false
+Random forest,selected_outer_fold,3.0,random_state,20260926
+Random forest,selected_outer_fold,3.0,verbose,0
+Random forest,selected_outer_fold,3.0,warm_start,false
+Random forest,selected_outer_fold,4.0,bootstrap,true
+Random forest,selected_outer_fold,4.0,ccp_alpha,0.0
+Random forest,selected_outer_fold,4.0,class_weight,null
+Random forest,selected_outer_fold,4.0,criterion,"""gini"""
+Random forest,selected_outer_fold,4.0,max_depth,3
+Random forest,selected_outer_fold,4.0,max_features,"""sqrt"""
+Random forest,selected_outer_fold,4.0,max_leaf_nodes,null
+Random forest,selected_outer_fold,4.0,max_samples,null
+Random forest,selected_outer_fold,4.0,min_impurity_decrease,0.0
+Random forest,selected_outer_fold,4.0,min_samples_leaf,2
+Random forest,selected_outer_fold,4.0,min_samples_split,2
+Random forest,selected_outer_fold,4.0,min_weight_fraction_leaf,0.0
+Random forest,selected_outer_fold,4.0,monotonic_cst,null
+Random forest,selected_outer_fold,4.0,n_estimators,200
+Random forest,selected_outer_fold,4.0,n_jobs,1
+Random forest,selected_outer_fold,4.0,oob_score,false
+Random forest,selected_outer_fold,4.0,random_state,20260926
+Random forest,selected_outer_fold,4.0,verbose,0
+Random forest,selected_outer_fold,4.0,warm_start,false
+Random forest,selected_outer_fold,5.0,bootstrap,true
+Random forest,selected_outer_fold,5.0,ccp_alpha,0.0
+Random forest,selected_outer_fold,5.0,class_weight,null
+Random forest,selected_outer_fold,5.0,criterion,"""gini"""
+Random forest,selected_outer_fold,5.0,max_depth,null
+Random forest,selected_outer_fold,5.0,max_features,"""sqrt"""
+Random forest,selected_outer_fold,5.0,max_leaf_nodes,null
+Random forest,selected_outer_fold,5.0,max_samples,null
+Random forest,selected_outer_fold,5.0,min_impurity_decrease,0.0
+Random forest,selected_outer_fold,5.0,min_samples_leaf,5
+Random forest,selected_outer_fold,5.0,min_samples_split,2
+Random forest,selected_outer_fold,5.0,min_weight_fraction_leaf,0.0
+Random forest,selected_outer_fold,5.0,monotonic_cst,null
+Random forest,selected_outer_fold,5.0,n_estimators,200
+Random forest,selected_outer_fold,5.0,n_jobs,1
+Random forest,selected_outer_fold,5.0,oob_score,false
+Random forest,selected_outer_fold,5.0,random_state,20260926
+Random forest,selected_outer_fold,5.0,verbose,0
+Random forest,selected_outer_fold,5.0,warm_start,false
+Random forest,fixed_not_searched,,bootstrap,true
+Random forest,fixed_not_searched,,ccp_alpha,0.0
+Random forest,fixed_not_searched,,class_weight,null
+Random forest,fixed_not_searched,,criterion,"""gini"""
+Random forest,fixed_not_searched,,max_features,"""sqrt"""
+Random forest,fixed_not_searched,,max_leaf_nodes,null
+Random forest,fixed_not_searched,,max_samples,null
+Random forest,fixed_not_searched,,min_impurity_decrease,0.0
+Random forest,fixed_not_searched,,min_samples_split,2
+Random forest,fixed_not_searched,,min_weight_fraction_leaf,0.0
+Random forest,fixed_not_searched,,monotonic_cst,null
+Random forest,fixed_not_searched,,n_estimators,200
+Random forest,fixed_not_searched,,n_jobs,1
+Random forest,fixed_not_searched,,oob_score,false
+Random forest,fixed_not_searched,,random_state,20260926
+Random forest,fixed_not_searched,,verbose,0
+Random forest,fixed_not_searched,,warm_start,false
+Random forest,search_grid,,model__max_depth,"[3, null]"
+Random forest,search_grid,,model__min_samples_leaf,"[2, 5]"
+Extra Trees,selected_outer_fold,1.0,bootstrap,false
+Extra Trees,selected_outer_fold,1.0,ccp_alpha,0.0
+Extra Trees,selected_outer_fold,1.0,class_weight,null
+Extra Trees,selected_outer_fold,1.0,criterion,"""gini"""
+Extra Trees,selected_outer_fold,1.0,max_depth,null
+Extra Trees,selected_outer_fold,1.0,max_features,"""sqrt"""
+Extra Trees,selected_outer_fold,1.0,max_leaf_nodes,null
+Extra Trees,selected_outer_fold,1.0,max_samples,null
+Extra Trees,selected_outer_fold,1.0,min_impurity_decrease,0.0
+Extra Trees,selected_outer_fold,1.0,min_samples_leaf,2
+Extra Trees,selected_outer_fold,1.0,min_samples_split,2
+Extra Trees,selected_outer_fold,1.0,min_weight_fraction_leaf,0.0
+Extra Trees,selected_outer_fold,1.0,monotonic_cst,null
+Extra Trees,selected_outer_fold,1.0,n_estimators,200
+Extra Trees,selected_outer_fold,1.0,n_jobs,1
+Extra Trees,selected_outer_fold,1.0,oob_score,false
+Extra Trees,selected_outer_fold,1.0,random_state,20260926
+Extra Trees,selected_outer_fold,1.0,verbose,0
+Extra Trees,selected_outer_fold,1.0,warm_start,false
+Extra Trees,selected_outer_fold,2.0,bootstrap,false
+Extra Trees,selected_outer_fold,2.0,ccp_alpha,0.0
+Extra Trees,selected_outer_fold,2.0,class_weight,null
+Extra Trees,selected_outer_fold,2.0,criterion,"""gini"""
+Extra Trees,selected_outer_fold,2.0,max_depth,null
+Extra Trees,selected_outer_fold,2.0,max_features,"""sqrt"""
+Extra Trees,selected_outer_fold,2.0,max_leaf_nodes,null
+Extra Trees,selected_outer_fold,2.0,max_samples,null
+Extra Trees,selected_outer_fold,2.0,min_impurity_decrease,0.0
+Extra Trees,selected_outer_fold,2.0,min_samples_leaf,2
+Extra Trees,selected_outer_fold,2.0,min_samples_split,2
+Extra Trees,selected_outer_fold,2.0,min_weight_fraction_leaf,0.0
+Extra Trees,selected_outer_fold,2.0,monotonic_cst,null
+Extra Trees,selected_outer_fold,2.0,n_estimators,200
+Extra Trees,selected_outer_fold,2.0,n_jobs,1
+Extra Trees,selected_outer_fold,2.0,oob_score,false
+Extra Trees,selected_outer_fold,2.0,random_state,20260926
+Extra Trees,selected_outer_fold,2.0,verbose,0
+Extra Trees,selected_outer_fold,2.0,warm_start,false
+Extra Trees,selected_outer_fold,3.0,bootstrap,false
+Extra Trees,selected_outer_fold,3.0,ccp_alpha,0.0
+Extra Trees,selected_outer_fold,3.0,class_weight,null
+Extra Trees,selected_outer_fold,3.0,criterion,"""gini"""
+Extra Trees,selected_outer_fold,3.0,max_depth,null
+Extra Trees,selected_outer_fold,3.0,max_features,"""sqrt"""
+Extra Trees,selected_outer_fold,3.0,max_leaf_nodes,null
+Extra Trees,selected_outer_fold,3.0,max_samples,null
+Extra Trees,selected_outer_fold,3.0,min_impurity_decrease,0.0
+Extra Trees,selected_outer_fold,3.0,min_samples_leaf,2
+Extra Trees,selected_outer_fold,3.0,min_samples_split,2
+Extra Trees,selected_outer_fold,3.0,min_weight_fraction_leaf,0.0
+Extra Trees,selected_outer_fold,3.0,monotonic_cst,null
+Extra Trees,selected_outer_fold,3.0,n_estimators,200
+Extra Trees,selected_outer_fold,3.0,n_jobs,1
+Extra Trees,selected_outer_fold,3.0,oob_score,false
+Extra Trees,selected_outer_fold,3.0,random_state,20260926
+Extra Trees,selected_outer_fold,3.0,verbose,0
+Extra Trees,selected_outer_fold,3.0,warm_start,false
+Extra Trees,selected_outer_fold,4.0,bootstrap,false
+Extra Trees,selected_outer_fold,4.0,ccp_alpha,0.0
+Extra Trees,selected_outer_fold,4.0,class_weight,null
+Extra Trees,selected_outer_fold,4.0,criterion,"""gini"""
+Extra Trees,selected_outer_fold,4.0,max_depth,null
+Extra Trees,selected_outer_fold,4.0,max_features,"""sqrt"""
+Extra Trees,selected_outer_fold,4.0,max_leaf_nodes,null
+Extra Trees,selected_outer_fold,4.0,max_samples,null
+Extra Trees,selected_outer_fold,4.0,min_impurity_decrease,0.0
+Extra Trees,selected_outer_fold,4.0,min_samples_leaf,2
+Extra Trees,selected_outer_fold,4.0,min_samples_split,2
+Extra Trees,selected_outer_fold,4.0,min_weight_fraction_leaf,0.0
+Extra Trees,selected_outer_fold,4.0,monotonic_cst,null
+Extra Trees,selected_outer_fold,4.0,n_estimators,200
+Extra Trees,selected_outer_fold,4.0,n_jobs,1
+Extra Trees,selected_outer_fold,4.0,oob_score,false
+Extra Trees,selected_outer_fold,4.0,random_state,20260926
+Extra Trees,selected_outer_fold,4.0,verbose,0
+Extra Trees,selected_outer_fold,4.0,warm_start,false
+Extra Trees,selected_outer_fold,5.0,bootstrap,false
+Extra Trees,selected_outer_fold,5.0,ccp_alpha,0.0
+Extra Trees,selected_outer_fold,5.0,class_weight,null
+Extra Trees,selected_outer_fold,5.0,criterion,"""gini"""
+Extra Trees,selected_outer_fold,5.0,max_depth,null
+Extra Trees,selected_outer_fold,5.0,max_features,"""sqrt"""
+Extra Trees,selected_outer_fold,5.0,max_leaf_nodes,null
+Extra Trees,selected_outer_fold,5.0,max_samples,null
+Extra Trees,selected_outer_fold,5.0,min_impurity_decrease,0.0
+Extra Trees,selected_outer_fold,5.0,min_samples_leaf,2
+Extra Trees,selected_outer_fold,5.0,min_samples_split,2
+Extra Trees,selected_outer_fold,5.0,min_weight_fraction_leaf,0.0
+Extra Trees,selected_outer_fold,5.0,monotonic_cst,null
+Extra Trees,selected_outer_fold,5.0,n_estimators,200
+Extra Trees,selected_outer_fold,5.0,n_jobs,1
+Extra Trees,selected_outer_fold,5.0,oob_score,false
+Extra Trees,selected_outer_fold,5.0,random_state,20260926
+Extra Trees,selected_outer_fold,5.0,verbose,0
+Extra Trees,selected_outer_fold,5.0,warm_start,false
+Extra Trees,fixed_not_searched,,bootstrap,false
+Extra Trees,fixed_not_searched,,ccp_alpha,0.0
+Extra Trees,fixed_not_searched,,class_weight,null
+Extra Trees,fixed_not_searched,,criterion,"""gini"""
+Extra Trees,fixed_not_searched,,max_features,"""sqrt"""
+Extra Trees,fixed_not_searched,,max_leaf_nodes,null
+Extra Trees,fixed_not_searched,,max_samples,null
+Extra Trees,fixed_not_searched,,min_impurity_decrease,0.0
+Extra Trees,fixed_not_searched,,min_samples_split,2
+Extra Trees,fixed_not_searched,,min_weight_fraction_leaf,0.0
+Extra Trees,fixed_not_searched,,monotonic_cst,null
+Extra Trees,fixed_not_searched,,n_estimators,200
+Extra Trees,fixed_not_searched,,n_jobs,1
+Extra Trees,fixed_not_searched,,oob_score,false
+Extra Trees,fixed_not_searched,,random_state,20260926
+Extra Trees,fixed_not_searched,,verbose,0
+Extra Trees,fixed_not_searched,,warm_start,false
+Extra Trees,search_grid,,model__max_depth,"[3, null]"
+Extra Trees,search_grid,,model__min_samples_leaf,"[2, 5]"
+XGBoost,selected_outer_fold,1.0,objective,"""binary:logistic"""
+XGBoost,selected_outer_fold,1.0,base_score,null
+XGBoost,selected_outer_fold,1.0,booster,null
+XGBoost,selected_outer_fold,1.0,callbacks,null
+XGBoost,selected_outer_fold,1.0,colsample_bylevel,null
+XGBoost,selected_outer_fold,1.0,colsample_bynode,null
+XGBoost,selected_outer_fold,1.0,colsample_bytree,null
+XGBoost,selected_outer_fold,1.0,device,null
+XGBoost,selected_outer_fold,1.0,early_stopping_rounds,null
+XGBoost,selected_outer_fold,1.0,enable_categorical,true
+XGBoost,selected_outer_fold,1.0,eval_metric,"""logloss"""
+XGBoost,selected_outer_fold,1.0,feature_types,null
+XGBoost,selected_outer_fold,1.0,feature_weights,null
+XGBoost,selected_outer_fold,1.0,gamma,null
+XGBoost,selected_outer_fold,1.0,grow_policy,null
+XGBoost,selected_outer_fold,1.0,importance_type,null
+XGBoost,selected_outer_fold,1.0,interaction_constraints,null
+XGBoost,selected_outer_fold,1.0,learning_rate,0.03
+XGBoost,selected_outer_fold,1.0,max_bin,null
+XGBoost,selected_outer_fold,1.0,max_cat_threshold,null
+XGBoost,selected_outer_fold,1.0,max_cat_to_onehot,null
+XGBoost,selected_outer_fold,1.0,max_delta_step,null
+XGBoost,selected_outer_fold,1.0,max_depth,3
+XGBoost,selected_outer_fold,1.0,max_leaves,null
+XGBoost,selected_outer_fold,1.0,min_child_weight,null
+XGBoost,selected_outer_fold,1.0,missing,"""NaN"""
+XGBoost,selected_outer_fold,1.0,monotone_constraints,null
+XGBoost,selected_outer_fold,1.0,multi_strategy,null
+XGBoost,selected_outer_fold,1.0,n_estimators,150
+XGBoost,selected_outer_fold,1.0,n_jobs,1
+XGBoost,selected_outer_fold,1.0,num_parallel_tree,null
+XGBoost,selected_outer_fold,1.0,random_state,20260926
+XGBoost,selected_outer_fold,1.0,reg_alpha,null
+XGBoost,selected_outer_fold,1.0,reg_lambda,null
+XGBoost,selected_outer_fold,1.0,sampling_method,null
+XGBoost,selected_outer_fold,1.0,scale_pos_weight,null
+XGBoost,selected_outer_fold,1.0,subsample,null
+XGBoost,selected_outer_fold,1.0,tree_method,"""hist"""
+XGBoost,selected_outer_fold,1.0,validate_parameters,null
+XGBoost,selected_outer_fold,1.0,verbosity,null
+XGBoost,selected_outer_fold,2.0,objective,"""binary:logistic"""
+XGBoost,selected_outer_fold,2.0,base_score,null
+XGBoost,selected_outer_fold,2.0,booster,null
+XGBoost,selected_outer_fold,2.0,callbacks,null
+XGBoost,selected_outer_fold,2.0,colsample_bylevel,null
+XGBoost,selected_outer_fold,2.0,colsample_bynode,null
+XGBoost,selected_outer_fold,2.0,colsample_bytree,null
+XGBoost,selected_outer_fold,2.0,device,null
+XGBoost,selected_outer_fold,2.0,early_stopping_rounds,null
+XGBoost,selected_outer_fold,2.0,enable_categorical,true
+XGBoost,selected_outer_fold,2.0,eval_metric,"""logloss"""
+XGBoost,selected_outer_fold,2.0,feature_types,null
+XGBoost,selected_outer_fold,2.0,feature_weights,null
+XGBoost,selected_outer_fold,2.0,gamma,null
+XGBoost,selected_outer_fold,2.0,grow_policy,null
+XGBoost,selected_outer_fold,2.0,importance_type,null
+XGBoost,selected_outer_fold,2.0,interaction_constraints,null
+XGBoost,selected_outer_fold,2.0,learning_rate,0.1
+XGBoost,selected_outer_fold,2.0,max_bin,null
+XGBoost,selected_outer_fold,2.0,max_cat_threshold,null
+XGBoost,selected_outer_fold,2.0,max_cat_to_onehot,null
+XGBoost,selected_outer_fold,2.0,max_delta_step,null
+XGBoost,selected_outer_fold,2.0,max_depth,3
+XGBoost,selected_outer_fold,2.0,max_leaves,null
+XGBoost,selected_outer_fold,2.0,min_child_weight,null
+XGBoost,selected_outer_fold,2.0,missing,"""NaN"""
+XGBoost,selected_outer_fold,2.0,monotone_constraints,null
+XGBoost,selected_outer_fold,2.0,multi_strategy,null
+XGBoost,selected_outer_fold,2.0,n_estimators,150
+XGBoost,selected_outer_fold,2.0,n_jobs,1
+XGBoost,selected_outer_fold,2.0,num_parallel_tree,null
+XGBoost,selected_outer_fold,2.0,random_state,20260926
+XGBoost,selected_outer_fold,2.0,reg_alpha,null
+XGBoost,selected_outer_fold,2.0,reg_lambda,null
+XGBoost,selected_outer_fold,2.0,sampling_method,null
+XGBoost,selected_outer_fold,2.0,scale_pos_weight,null
+XGBoost,selected_outer_fold,2.0,subsample,null
+XGBoost,selected_outer_fold,2.0,tree_method,"""hist"""
+XGBoost,selected_outer_fold,2.0,validate_parameters,null
+XGBoost,selected_outer_fold,2.0,verbosity,null
+XGBoost,selected_outer_fold,3.0,objective,"""binary:logistic"""
+XGBoost,selected_outer_fold,3.0,base_score,null
+XGBoost,selected_outer_fold,3.0,booster,null
+XGBoost,selected_outer_fold,3.0,callbacks,null
+XGBoost,selected_outer_fold,3.0,colsample_bylevel,null
+XGBoost,selected_outer_fold,3.0,colsample_bynode,null
+XGBoost,selected_outer_fold,3.0,colsample_bytree,null
+XGBoost,selected_outer_fold,3.0,device,null
+XGBoost,selected_outer_fold,3.0,early_stopping_rounds,null
+XGBoost,selected_outer_fold,3.0,enable_categorical,true
+XGBoost,selected_outer_fold,3.0,eval_metric,"""logloss"""
+XGBoost,selected_outer_fold,3.0,feature_types,null
+XGBoost,selected_outer_fold,3.0,feature_weights,null
+XGBoost,selected_outer_fold,3.0,gamma,null
+XGBoost,selected_outer_fold,3.0,grow_policy,null
+XGBoost,selected_outer_fold,3.0,importance_type,null
+XGBoost,selected_outer_fold,3.0,interaction_constraints,null
+XGBoost,selected_outer_fold,3.0,learning_rate,0.1
+XGBoost,selected_outer_fold,3.0,max_bin,null
+XGBoost,selected_outer_fold,3.0,max_cat_threshold,null
+XGBoost,selected_outer_fold,3.0,max_cat_to_onehot,null
+XGBoost,selected_outer_fold,3.0,max_delta_step,null
+XGBoost,selected_outer_fold,3.0,max_depth,2
+XGBoost,selected_outer_fold,3.0,max_leaves,null
+XGBoost,selected_outer_fold,3.0,min_child_weight,null
+XGBoost,selected_outer_fold,3.0,missing,"""NaN"""
+XGBoost,selected_outer_fold,3.0,monotone_constraints,null
+XGBoost,selected_outer_fold,3.0,multi_strategy,null
+XGBoost,selected_outer_fold,3.0,n_estimators,150
+XGBoost,selected_outer_fold,3.0,n_jobs,1
+XGBoost,selected_outer_fold,3.0,num_parallel_tree,null
+XGBoost,selected_outer_fold,3.0,random_state,20260926
+XGBoost,selected_outer_fold,3.0,reg_alpha,null
+XGBoost,selected_outer_fold,3.0,reg_lambda,null
+XGBoost,selected_outer_fold,3.0,sampling_method,null
+XGBoost,selected_outer_fold,3.0,scale_pos_weight,null
+XGBoost,selected_outer_fold,3.0,subsample,null
+XGBoost,selected_outer_fold,3.0,tree_method,"""hist"""
+XGBoost,selected_outer_fold,3.0,validate_parameters,null
+XGBoost,selected_outer_fold,3.0,verbosity,null
+XGBoost,selected_outer_fold,4.0,objective,"""binary:logistic"""
+XGBoost,selected_outer_fold,4.0,base_score,null
+XGBoost,selected_outer_fold,4.0,booster,null
+XGBoost,selected_outer_fold,4.0,callbacks,null
+XGBoost,selected_outer_fold,4.0,colsample_bylevel,null
+XGBoost,selected_outer_fold,4.0,colsample_bynode,null
+XGBoost,selected_outer_fold,4.0,colsample_bytree,null
+XGBoost,selected_outer_fold,4.0,device,null
+XGBoost,selected_outer_fold,4.0,early_stopping_rounds,null
+XGBoost,selected_outer_fold,4.0,enable_categorical,true
+XGBoost,selected_outer_fold,4.0,eval_metric,"""logloss"""
+XGBoost,selected_outer_fold,4.0,feature_types,null
+XGBoost,selected_outer_fold,4.0,feature_weights,null
+XGBoost,selected_outer_fold,4.0,gamma,null
+XGBoost,selected_outer_fold,4.0,grow_policy,null
+XGBoost,selected_outer_fold,4.0,importance_type,null
+XGBoost,selected_outer_fold,4.0,interaction_constraints,null
+XGBoost,selected_outer_fold,4.0,learning_rate,0.03
+XGBoost,selected_outer_fold,4.0,max_bin,null
+XGBoost,selected_outer_fold,4.0,max_cat_threshold,null
+XGBoost,selected_outer_fold,4.0,max_cat_to_onehot,null
+XGBoost,selected_outer_fold,4.0,max_delta_step,null
+XGBoost,selected_outer_fold,4.0,max_depth,2
+XGBoost,selected_outer_fold,4.0,max_leaves,null
+XGBoost,selected_outer_fold,4.0,min_child_weight,null
+XGBoost,selected_outer_fold,4.0,missing,"""NaN"""
+XGBoost,selected_outer_fold,4.0,monotone_constraints,null
+XGBoost,selected_outer_fold,4.0,multi_strategy,null
+XGBoost,selected_outer_fold,4.0,n_estimators,150
+XGBoost,selected_outer_fold,4.0,n_jobs,1
+XGBoost,selected_outer_fold,4.0,num_parallel_tree,null
+XGBoost,selected_outer_fold,4.0,random_state,20260926
+XGBoost,selected_outer_fold,4.0,reg_alpha,null
+XGBoost,selected_outer_fold,4.0,reg_lambda,null
+XGBoost,selected_outer_fold,4.0,sampling_method,null
+XGBoost,selected_outer_fold,4.0,scale_pos_weight,null
+XGBoost,selected_outer_fold,4.0,subsample,null
+XGBoost,selected_outer_fold,4.0,tree_method,"""hist"""
+XGBoost,selected_outer_fold,4.0,validate_parameters,null
+XGBoost,selected_outer_fold,4.0,verbosity,null
+XGBoost,selected_outer_fold,5.0,objective,"""binary:logistic"""
+XGBoost,selected_outer_fold,5.0,base_score,null
+XGBoost,selected_outer_fold,5.0,booster,null
+XGBoost,selected_outer_fold,5.0,callbacks,null
+XGBoost,selected_outer_fold,5.0,colsample_bylevel,null
+XGBoost,selected_outer_fold,5.0,colsample_bynode,null
+XGBoost,selected_outer_fold,5.0,colsample_bytree,null
+XGBoost,selected_outer_fold,5.0,device,null
+XGBoost,selected_outer_fold,5.0,early_stopping_rounds,null
+XGBoost,selected_outer_fold,5.0,enable_categorical,true
+XGBoost,selected_outer_fold,5.0,eval_metric,"""logloss"""
+XGBoost,selected_outer_fold,5.0,feature_types,null
+XGBoost,selected_outer_fold,5.0,feature_weights,null
+XGBoost,selected_outer_fold,5.0,gamma,null
+XGBoost,selected_outer_fold,5.0,grow_policy,null
+XGBoost,selected_outer_fold,5.0,importance_type,null
+XGBoost,selected_outer_fold,5.0,interaction_constraints,null
+XGBoost,selected_outer_fold,5.0,learning_rate,0.1
+XGBoost,selected_outer_fold,5.0,max_bin,null
+XGBoost,selected_outer_fold,5.0,max_cat_threshold,null
+XGBoost,selected_outer_fold,5.0,max_cat_to_onehot,null
+XGBoost,selected_outer_fold,5.0,max_delta_step,null
+XGBoost,selected_outer_fold,5.0,max_depth,2
+XGBoost,selected_outer_fold,5.0,max_leaves,null
+XGBoost,selected_outer_fold,5.0,min_child_weight,null
+XGBoost,selected_outer_fold,5.0,missing,"""NaN"""
+XGBoost,selected_outer_fold,5.0,monotone_constraints,null
+XGBoost,selected_outer_fold,5.0,multi_strategy,null
+XGBoost,selected_outer_fold,5.0,n_estimators,150
+XGBoost,selected_outer_fold,5.0,n_jobs,1
+XGBoost,selected_outer_fold,5.0,num_parallel_tree,null
+XGBoost,selected_outer_fold,5.0,random_state,20260926
+XGBoost,selected_outer_fold,5.0,reg_alpha,null
+XGBoost,selected_outer_fold,5.0,reg_lambda,null
+XGBoost,selected_outer_fold,5.0,sampling_method,null
+XGBoost,selected_outer_fold,5.0,scale_pos_weight,null
+XGBoost,selected_outer_fold,5.0,subsample,null
+XGBoost,selected_outer_fold,5.0,tree_method,"""hist"""
+XGBoost,selected_outer_fold,5.0,validate_parameters,null
+XGBoost,selected_outer_fold,5.0,verbosity,null
+XGBoost,fixed_not_searched,,objective,"""binary:logistic"""
+XGBoost,fixed_not_searched,,base_score,null
+XGBoost,fixed_not_searched,,booster,null
+XGBoost,fixed_not_searched,,callbacks,null
+XGBoost,fixed_not_searched,,colsample_bylevel,null
+XGBoost,fixed_not_searched,,colsample_bynode,null
+XGBoost,fixed_not_searched,,colsample_bytree,null
+XGBoost,fixed_not_searched,,device,null
+XGBoost,fixed_not_searched,,early_stopping_rounds,null
+XGBoost,fixed_not_searched,,enable_categorical,true
+XGBoost,fixed_not_searched,,eval_metric,"""logloss"""
+XGBoost,fixed_not_searched,,feature_types,null
+XGBoost,fixed_not_searched,,feature_weights,null
+XGBoost,fixed_not_searched,,gamma,null
+XGBoost,fixed_not_searched,,grow_policy,null
+XGBoost,fixed_not_searched,,importance_type,null
+XGBoost,fixed_not_searched,,interaction_constraints,null
+XGBoost,fixed_not_searched,,max_bin,null
+XGBoost,fixed_not_searched,,max_cat_threshold,null
+XGBoost,fixed_not_searched,,max_cat_to_onehot,null
+XGBoost,fixed_not_searched,,max_delta_step,null
+XGBoost,fixed_not_searched,,max_leaves,null
+XGBoost,fixed_not_searched,,min_child_weight,null
+XGBoost,fixed_not_searched,,missing,"""NaN"""
+XGBoost,fixed_not_searched,,monotone_constraints,null
+XGBoost,fixed_not_searched,,multi_strategy,null
+XGBoost,fixed_not_searched,,n_estimators,150
+XGBoost,fixed_not_searched,,n_jobs,1
+XGBoost,fixed_not_searched,,num_parallel_tree,null
+XGBoost,fixed_not_searched,,random_state,20260926
+XGBoost,fixed_not_searched,,reg_alpha,null
+XGBoost,fixed_not_searched,,reg_lambda,null
+XGBoost,fixed_not_searched,,sampling_method,null
+XGBoost,fixed_not_searched,,scale_pos_weight,null
+XGBoost,fixed_not_searched,,subsample,null
+XGBoost,fixed_not_searched,,tree_method,"""hist"""
+XGBoost,fixed_not_searched,,validate_parameters,null
+XGBoost,fixed_not_searched,,verbosity,null
+XGBoost,search_grid,,model__max_depth,"[2, 3]"
+XGBoost,search_grid,,model__learning_rate,"[0.03, 0.1]"
+LightGBM,selected_outer_fold,1.0,boosting_type,"""gbdt"""
+LightGBM,selected_outer_fold,1.0,class_weight,null
+LightGBM,selected_outer_fold,1.0,colsample_bytree,1.0
+LightGBM,selected_outer_fold,1.0,importance_type,"""split"""
+LightGBM,selected_outer_fold,1.0,learning_rate,0.1
+LightGBM,selected_outer_fold,1.0,max_depth,-1
+LightGBM,selected_outer_fold,1.0,min_child_samples,10
+LightGBM,selected_outer_fold,1.0,min_child_weight,0.001
+LightGBM,selected_outer_fold,1.0,min_split_gain,0.0
+LightGBM,selected_outer_fold,1.0,n_estimators,150
+LightGBM,selected_outer_fold,1.0,n_jobs,1
+LightGBM,selected_outer_fold,1.0,num_leaves,5
+LightGBM,selected_outer_fold,1.0,objective,null
+LightGBM,selected_outer_fold,1.0,random_state,20260926
+LightGBM,selected_outer_fold,1.0,reg_alpha,0.0
+LightGBM,selected_outer_fold,1.0,reg_lambda,0.0
+LightGBM,selected_outer_fold,1.0,subsample,1.0
+LightGBM,selected_outer_fold,1.0,subsample_for_bin,200000
+LightGBM,selected_outer_fold,1.0,subsample_freq,0
+LightGBM,selected_outer_fold,1.0,verbosity,-1
+LightGBM,selected_outer_fold,2.0,boosting_type,"""gbdt"""
+LightGBM,selected_outer_fold,2.0,class_weight,null
+LightGBM,selected_outer_fold,2.0,colsample_bytree,1.0
+LightGBM,selected_outer_fold,2.0,importance_type,"""split"""
+LightGBM,selected_outer_fold,2.0,learning_rate,0.03
+LightGBM,selected_outer_fold,2.0,max_depth,-1
+LightGBM,selected_outer_fold,2.0,min_child_samples,10
+LightGBM,selected_outer_fold,2.0,min_child_weight,0.001
+LightGBM,selected_outer_fold,2.0,min_split_gain,0.0
+LightGBM,selected_outer_fold,2.0,n_estimators,150
+LightGBM,selected_outer_fold,2.0,n_jobs,1
+LightGBM,selected_outer_fold,2.0,num_leaves,5
+LightGBM,selected_outer_fold,2.0,objective,null
+LightGBM,selected_outer_fold,2.0,random_state,20260926
+LightGBM,selected_outer_fold,2.0,reg_alpha,0.0
+LightGBM,selected_outer_fold,2.0,reg_lambda,0.0
+LightGBM,selected_outer_fold,2.0,subsample,1.0
+LightGBM,selected_outer_fold,2.0,subsample_for_bin,200000
+LightGBM,selected_outer_fold,2.0,subsample_freq,0
+LightGBM,selected_outer_fold,2.0,verbosity,-1
+LightGBM,selected_outer_fold,3.0,boosting_type,"""gbdt"""
+LightGBM,selected_outer_fold,3.0,class_weight,null
+LightGBM,selected_outer_fold,3.0,colsample_bytree,1.0
+LightGBM,selected_outer_fold,3.0,importance_type,"""split"""
+LightGBM,selected_outer_fold,3.0,learning_rate,0.1
+LightGBM,selected_outer_fold,3.0,max_depth,-1
+LightGBM,selected_outer_fold,3.0,min_child_samples,10
+LightGBM,selected_outer_fold,3.0,min_child_weight,0.001
+LightGBM,selected_outer_fold,3.0,min_split_gain,0.0
+LightGBM,selected_outer_fold,3.0,n_estimators,150
+LightGBM,selected_outer_fold,3.0,n_jobs,1
+LightGBM,selected_outer_fold,3.0,num_leaves,5
+LightGBM,selected_outer_fold,3.0,objective,null
+LightGBM,selected_outer_fold,3.0,random_state,20260926
+LightGBM,selected_outer_fold,3.0,reg_alpha,0.0
+LightGBM,selected_outer_fold,3.0,reg_lambda,0.0
+LightGBM,selected_outer_fold,3.0,subsample,1.0
+LightGBM,selected_outer_fold,3.0,subsample_for_bin,200000
+LightGBM,selected_outer_fold,3.0,subsample_freq,0
+LightGBM,selected_outer_fold,3.0,verbosity,-1
+LightGBM,selected_outer_fold,4.0,boosting_type,"""gbdt"""
+LightGBM,selected_outer_fold,4.0,class_weight,null
+LightGBM,selected_outer_fold,4.0,colsample_bytree,1.0
+LightGBM,selected_outer_fold,4.0,importance_type,"""split"""
+LightGBM,selected_outer_fold,4.0,learning_rate,0.03
+LightGBM,selected_outer_fold,4.0,max_depth,-1
+LightGBM,selected_outer_fold,4.0,min_child_samples,10
+LightGBM,selected_outer_fold,4.0,min_child_weight,0.001
+LightGBM,selected_outer_fold,4.0,min_split_gain,0.0
+LightGBM,selected_outer_fold,4.0,n_estimators,150
+LightGBM,selected_outer_fold,4.0,n_jobs,1
+LightGBM,selected_outer_fold,4.0,num_leaves,10
+LightGBM,selected_outer_fold,4.0,objective,null
+LightGBM,selected_outer_fold,4.0,random_state,20260926
+LightGBM,selected_outer_fold,4.0,reg_alpha,0.0
+LightGBM,selected_outer_fold,4.0,reg_lambda,0.0
+LightGBM,selected_outer_fold,4.0,subsample,1.0
+LightGBM,selected_outer_fold,4.0,subsample_for_bin,200000
+LightGBM,selected_outer_fold,4.0,subsample_freq,0
+LightGBM,selected_outer_fold,4.0,verbosity,-1
+LightGBM,selected_outer_fold,5.0,boosting_type,"""gbdt"""
+LightGBM,selected_outer_fold,5.0,class_weight,null
+LightGBM,selected_outer_fold,5.0,colsample_bytree,1.0
+LightGBM,selected_outer_fold,5.0,importance_type,"""split"""
+LightGBM,selected_outer_fold,5.0,learning_rate,0.03
+LightGBM,selected_outer_fold,5.0,max_depth,-1
+LightGBM,selected_outer_fold,5.0,min_child_samples,10
+LightGBM,selected_outer_fold,5.0,min_child_weight,0.001
+LightGBM,selected_outer_fold,5.0,min_split_gain,0.0
+LightGBM,selected_outer_fold,5.0,n_estimators,150
+LightGBM,selected_outer_fold,5.0,n_jobs,1
+LightGBM,selected_outer_fold,5.0,num_leaves,10
+LightGBM,selected_outer_fold,5.0,objective,null
+LightGBM,selected_outer_fold,5.0,random_state,20260926
+LightGBM,selected_outer_fold,5.0,reg_alpha,0.0
+LightGBM,selected_outer_fold,5.0,reg_lambda,0.0
+LightGBM,selected_outer_fold,5.0,subsample,1.0
+LightGBM,selected_outer_fold,5.0,subsample_for_bin,200000
+LightGBM,selected_outer_fold,5.0,subsample_freq,0
+LightGBM,selected_outer_fold,5.0,verbosity,-1
+LightGBM,fixed_not_searched,,boosting_type,"""gbdt"""
+LightGBM,fixed_not_searched,,class_weight,null
+LightGBM,fixed_not_searched,,colsample_bytree,1.0
+LightGBM,fixed_not_searched,,importance_type,"""split"""
+LightGBM,fixed_not_searched,,max_depth,-1
+LightGBM,fixed_not_searched,,min_child_samples,10
+LightGBM,fixed_not_searched,,min_child_weight,0.001
+LightGBM,fixed_not_searched,,min_split_gain,0.0
+LightGBM,fixed_not_searched,,n_estimators,150
+LightGBM,fixed_not_searched,,n_jobs,1
+LightGBM,fixed_not_searched,,objective,null
+LightGBM,fixed_not_searched,,random_state,20260926
+LightGBM,fixed_not_searched,,reg_alpha,0.0
+LightGBM,fixed_not_searched,,reg_lambda,0.0
+LightGBM,fixed_not_searched,,subsample,1.0
+LightGBM,fixed_not_searched,,subsample_for_bin,200000
+LightGBM,fixed_not_searched,,subsample_freq,0
+LightGBM,fixed_not_searched,,verbosity,-1
+LightGBM,search_grid,,model__num_leaves,"[5, 10]"
+LightGBM,search_grid,,model__learning_rate,"[0.03, 0.1]"
+AdaBoost,selected_outer_fold,1.0,estimator,null
+AdaBoost,selected_outer_fold,1.0,learning_rate,0.5
+AdaBoost,selected_outer_fold,1.0,n_estimators,100
+AdaBoost,selected_outer_fold,1.0,random_state,20260926
+AdaBoost,selected_outer_fold,2.0,estimator,null
+AdaBoost,selected_outer_fold,2.0,learning_rate,0.1
+AdaBoost,selected_outer_fold,2.0,n_estimators,100
+AdaBoost,selected_outer_fold,2.0,random_state,20260926
+AdaBoost,selected_outer_fold,3.0,estimator,null
+AdaBoost,selected_outer_fold,3.0,learning_rate,0.5
+AdaBoost,selected_outer_fold,3.0,n_estimators,50
+AdaBoost,selected_outer_fold,3.0,random_state,20260926
+AdaBoost,selected_outer_fold,4.0,estimator,null
+AdaBoost,selected_outer_fold,4.0,learning_rate,0.1
+AdaBoost,selected_outer_fold,4.0,n_estimators,50
+AdaBoost,selected_outer_fold,4.0,random_state,20260926
+AdaBoost,selected_outer_fold,5.0,estimator,null
+AdaBoost,selected_outer_fold,5.0,learning_rate,0.5
+AdaBoost,selected_outer_fold,5.0,n_estimators,100
+AdaBoost,selected_outer_fold,5.0,random_state,20260926
+AdaBoost,fixed_not_searched,,estimator,null
+AdaBoost,fixed_not_searched,,random_state,20260926
+AdaBoost,search_grid,,model__n_estimators,"[50, 100]"
+AdaBoost,search_grid,,model__learning_rate,"[0.1, 0.5]"
+Gradient boosting,selected_outer_fold,1.0,ccp_alpha,0.0
+Gradient boosting,selected_outer_fold,1.0,criterion,"""friedman_mse"""
+Gradient boosting,selected_outer_fold,1.0,init,null
+Gradient boosting,selected_outer_fold,1.0,learning_rate,0.1
+Gradient boosting,selected_outer_fold,1.0,loss,"""log_loss"""
+Gradient boosting,selected_outer_fold,1.0,max_depth,1
+Gradient boosting,selected_outer_fold,1.0,max_features,null
+Gradient boosting,selected_outer_fold,1.0,max_leaf_nodes,null
+Gradient boosting,selected_outer_fold,1.0,min_impurity_decrease,0.0
+Gradient boosting,selected_outer_fold,1.0,min_samples_leaf,1
+Gradient boosting,selected_outer_fold,1.0,min_samples_split,2
+Gradient boosting,selected_outer_fold,1.0,min_weight_fraction_leaf,0.0
+Gradient boosting,selected_outer_fold,1.0,n_estimators,100
+Gradient boosting,selected_outer_fold,1.0,n_iter_no_change,null
+Gradient boosting,selected_outer_fold,1.0,random_state,20260926
+Gradient boosting,selected_outer_fold,1.0,subsample,1.0
+Gradient boosting,selected_outer_fold,1.0,tol,0.0001
+Gradient boosting,selected_outer_fold,1.0,validation_fraction,0.1
+Gradient boosting,selected_outer_fold,1.0,verbose,0
+Gradient boosting,selected_outer_fold,1.0,warm_start,false
+Gradient boosting,selected_outer_fold,2.0,ccp_alpha,0.0
+Gradient boosting,selected_outer_fold,2.0,criterion,"""friedman_mse"""
+Gradient boosting,selected_outer_fold,2.0,init,null
+Gradient boosting,selected_outer_fold,2.0,learning_rate,0.1
+Gradient boosting,selected_outer_fold,2.0,loss,"""log_loss"""
+Gradient boosting,selected_outer_fold,2.0,max_depth,2
+Gradient boosting,selected_outer_fold,2.0,max_features,null
+Gradient boosting,selected_outer_fold,2.0,max_leaf_nodes,null
+Gradient boosting,selected_outer_fold,2.0,min_impurity_decrease,0.0
+Gradient boosting,selected_outer_fold,2.0,min_samples_leaf,1
+Gradient boosting,selected_outer_fold,2.0,min_samples_split,2
+Gradient boosting,selected_outer_fold,2.0,min_weight_fraction_leaf,0.0
+Gradient boosting,selected_outer_fold,2.0,n_estimators,100
+Gradient boosting,selected_outer_fold,2.0,n_iter_no_change,null
+Gradient boosting,selected_outer_fold,2.0,random_state,20260926
+Gradient boosting,selected_outer_fold,2.0,subsample,1.0
+Gradient boosting,selected_outer_fold,2.0,tol,0.0001
+Gradient boosting,selected_outer_fold,2.0,validation_fraction,0.1
+Gradient boosting,selected_outer_fold,2.0,verbose,0
+Gradient boosting,selected_outer_fold,2.0,warm_start,false
+Gradient boosting,selected_outer_fold,3.0,ccp_alpha,0.0
+Gradient boosting,selected_outer_fold,3.0,criterion,"""friedman_mse"""
+Gradient boosting,selected_outer_fold,3.0,init,null
+Gradient boosting,selected_outer_fold,3.0,learning_rate,0.1
+Gradient boosting,selected_outer_fold,3.0,loss,"""log_loss"""
+Gradient boosting,selected_outer_fold,3.0,max_depth,2
+Gradient boosting,selected_outer_fold,3.0,max_features,null
+Gradient boosting,selected_outer_fold,3.0,max_leaf_nodes,null
+Gradient boosting,selected_outer_fold,3.0,min_impurity_decrease,0.0
+Gradient boosting,selected_outer_fold,3.0,min_samples_leaf,1
+Gradient boosting,selected_outer_fold,3.0,min_samples_split,2
+Gradient boosting,selected_outer_fold,3.0,min_weight_fraction_leaf,0.0
+Gradient boosting,selected_outer_fold,3.0,n_estimators,100
+Gradient boosting,selected_outer_fold,3.0,n_iter_no_change,null
+Gradient boosting,selected_outer_fold,3.0,random_state,20260926
+Gradient boosting,selected_outer_fold,3.0,subsample,1.0
+Gradient boosting,selected_outer_fold,3.0,tol,0.0001
+Gradient boosting,selected_outer_fold,3.0,validation_fraction,0.1
+Gradient boosting,selected_outer_fold,3.0,verbose,0
+Gradient boosting,selected_outer_fold,3.0,warm_start,false
+Gradient boosting,selected_outer_fold,4.0,ccp_alpha,0.0
+Gradient boosting,selected_outer_fold,4.0,criterion,"""friedman_mse"""
+Gradient boosting,selected_outer_fold,4.0,init,null
+Gradient boosting,selected_outer_fold,4.0,learning_rate,0.1
+Gradient boosting,selected_outer_fold,4.0,loss,"""log_loss"""
+Gradient boosting,selected_outer_fold,4.0,max_depth,2
+Gradient boosting,selected_outer_fold,4.0,max_features,null
+Gradient boosting,selected_outer_fold,4.0,max_leaf_nodes,null
+Gradient boosting,selected_outer_fold,4.0,min_impurity_decrease,0.0
+Gradient boosting,selected_outer_fold,4.0,min_samples_leaf,1
+Gradient boosting,selected_outer_fold,4.0,min_samples_split,2
+Gradient boosting,selected_outer_fold,4.0,min_weight_fraction_leaf,0.0
+Gradient boosting,selected_outer_fold,4.0,n_estimators,100
+Gradient boosting,selected_outer_fold,4.0,n_iter_no_change,null
+Gradient boosting,selected_outer_fold,4.0,random_state,20260926
+Gradient boosting,selected_outer_fold,4.0,subsample,1.0
+Gradient boosting,selected_outer_fold,4.0,tol,0.0001
+Gradient boosting,selected_outer_fold,4.0,validation_fraction,0.1
+Gradient boosting,selected_outer_fold,4.0,verbose,0
+Gradient boosting,selected_outer_fold,4.0,warm_start,false
+Gradient boosting,selected_outer_fold,5.0,ccp_alpha,0.0
+Gradient boosting,selected_outer_fold,5.0,criterion,"""friedman_mse"""
+Gradient boosting,selected_outer_fold,5.0,init,null
+Gradient boosting,selected_outer_fold,5.0,learning_rate,0.1
+Gradient boosting,selected_outer_fold,5.0,loss,"""log_loss"""
+Gradient boosting,selected_outer_fold,5.0,max_depth,2
+Gradient boosting,selected_outer_fold,5.0,max_features,null
+Gradient boosting,selected_outer_fold,5.0,max_leaf_nodes,null
+Gradient boosting,selected_outer_fold,5.0,min_impurity_decrease,0.0
+Gradient boosting,selected_outer_fold,5.0,min_samples_leaf,1
+Gradient boosting,selected_outer_fold,5.0,min_samples_split,2
+Gradient boosting,selected_outer_fold,5.0,min_weight_fraction_leaf,0.0
+Gradient boosting,selected_outer_fold,5.0,n_estimators,100
+Gradient boosting,selected_outer_fold,5.0,n_iter_no_change,null
+Gradient boosting,selected_outer_fold,5.0,random_state,20260926
+Gradient boosting,selected_outer_fold,5.0,subsample,1.0
+Gradient boosting,selected_outer_fold,5.0,tol,0.0001
+Gradient boosting,selected_outer_fold,5.0,validation_fraction,0.1
+Gradient boosting,selected_outer_fold,5.0,verbose,0
+Gradient boosting,selected_outer_fold,5.0,warm_start,false
+Gradient boosting,fixed_not_searched,,ccp_alpha,0.0
+Gradient boosting,fixed_not_searched,,criterion,"""friedman_mse"""
+Gradient boosting,fixed_not_searched,,init,null
+Gradient boosting,fixed_not_searched,,loss,"""log_loss"""
+Gradient boosting,fixed_not_searched,,max_features,null
+Gradient boosting,fixed_not_searched,,max_leaf_nodes,null
+Gradient boosting,fixed_not_searched,,min_impurity_decrease,0.0
+Gradient boosting,fixed_not_searched,,min_samples_leaf,1
+Gradient boosting,fixed_not_searched,,min_samples_split,2
+Gradient boosting,fixed_not_searched,,min_weight_fraction_leaf,0.0
+Gradient boosting,fixed_not_searched,,n_estimators,100
+Gradient boosting,fixed_not_searched,,n_iter_no_change,null
+Gradient boosting,fixed_not_searched,,random_state,20260926
+Gradient boosting,fixed_not_searched,,subsample,1.0
+Gradient boosting,fixed_not_searched,,tol,0.0001
+Gradient boosting,fixed_not_searched,,validation_fraction,0.1
+Gradient boosting,fixed_not_searched,,verbose,0
+Gradient boosting,fixed_not_searched,,warm_start,false
+Gradient boosting,search_grid,,model__max_depth,"[1, 2]"
+Gradient boosting,search_grid,,model__learning_rate,"[0.03, 0.1]"
+MLP,selected_outer_fold,1.0,activation,"""relu"""
+MLP,selected_outer_fold,1.0,alpha,1.0
+MLP,selected_outer_fold,1.0,batch_size,"""auto"""
+MLP,selected_outer_fold,1.0,beta_1,0.9
+MLP,selected_outer_fold,1.0,beta_2,0.999
+MLP,selected_outer_fold,1.0,early_stopping,false
+MLP,selected_outer_fold,1.0,epsilon,1e-08
+MLP,selected_outer_fold,1.0,hidden_layer_sizes,[16]
+MLP,selected_outer_fold,1.0,learning_rate,"""constant"""
+MLP,selected_outer_fold,1.0,learning_rate_init,0.001
+MLP,selected_outer_fold,1.0,max_fun,30000
+MLP,selected_outer_fold,1.0,max_iter,3000
+MLP,selected_outer_fold,1.0,momentum,0.9
+MLP,selected_outer_fold,1.0,n_iter_no_change,10
+MLP,selected_outer_fold,1.0,nesterovs_momentum,true
+MLP,selected_outer_fold,1.0,power_t,0.5
+MLP,selected_outer_fold,1.0,random_state,20260926
+MLP,selected_outer_fold,1.0,shuffle,true
+MLP,selected_outer_fold,1.0,solver,"""lbfgs"""
+MLP,selected_outer_fold,1.0,tol,0.0001
+MLP,selected_outer_fold,1.0,validation_fraction,0.1
+MLP,selected_outer_fold,1.0,verbose,false
+MLP,selected_outer_fold,1.0,warm_start,false
+MLP,selected_outer_fold,2.0,activation,"""relu"""
+MLP,selected_outer_fold,2.0,alpha,1.0
+MLP,selected_outer_fold,2.0,batch_size,"""auto"""
+MLP,selected_outer_fold,2.0,beta_1,0.9
+MLP,selected_outer_fold,2.0,beta_2,0.999
+MLP,selected_outer_fold,2.0,early_stopping,false
+MLP,selected_outer_fold,2.0,epsilon,1e-08
+MLP,selected_outer_fold,2.0,hidden_layer_sizes,[16]
+MLP,selected_outer_fold,2.0,learning_rate,"""constant"""
+MLP,selected_outer_fold,2.0,learning_rate_init,0.001
+MLP,selected_outer_fold,2.0,max_fun,30000
+MLP,selected_outer_fold,2.0,max_iter,3000
+MLP,selected_outer_fold,2.0,momentum,0.9
+MLP,selected_outer_fold,2.0,n_iter_no_change,10
+MLP,selected_outer_fold,2.0,nesterovs_momentum,true
+MLP,selected_outer_fold,2.0,power_t,0.5
+MLP,selected_outer_fold,2.0,random_state,20260926
+MLP,selected_outer_fold,2.0,shuffle,true
+MLP,selected_outer_fold,2.0,solver,"""lbfgs"""
+MLP,selected_outer_fold,2.0,tol,0.0001
+MLP,selected_outer_fold,2.0,validation_fraction,0.1
+MLP,selected_outer_fold,2.0,verbose,false
+MLP,selected_outer_fold,2.0,warm_start,false
+MLP,selected_outer_fold,3.0,activation,"""relu"""
+MLP,selected_outer_fold,3.0,alpha,1.0
+MLP,selected_outer_fold,3.0,batch_size,"""auto"""
+MLP,selected_outer_fold,3.0,beta_1,0.9
+MLP,selected_outer_fold,3.0,beta_2,0.999
+MLP,selected_outer_fold,3.0,early_stopping,false
+MLP,selected_outer_fold,3.0,epsilon,1e-08
+MLP,selected_outer_fold,3.0,hidden_layer_sizes,[8]
+MLP,selected_outer_fold,3.0,learning_rate,"""constant"""
+MLP,selected_outer_fold,3.0,learning_rate_init,0.001
+MLP,selected_outer_fold,3.0,max_fun,30000
+MLP,selected_outer_fold,3.0,max_iter,3000
+MLP,selected_outer_fold,3.0,momentum,0.9
+MLP,selected_outer_fold,3.0,n_iter_no_change,10
+MLP,selected_outer_fold,3.0,nesterovs_momentum,true
+MLP,selected_outer_fold,3.0,power_t,0.5
+MLP,selected_outer_fold,3.0,random_state,20260926
+MLP,selected_outer_fold,3.0,shuffle,true
+MLP,selected_outer_fold,3.0,solver,"""lbfgs"""
+MLP,selected_outer_fold,3.0,tol,0.0001
+MLP,selected_outer_fold,3.0,validation_fraction,0.1
+MLP,selected_outer_fold,3.0,verbose,false
+MLP,selected_outer_fold,3.0,warm_start,false
+MLP,selected_outer_fold,4.0,activation,"""relu"""
+MLP,selected_outer_fold,4.0,alpha,1.0
+MLP,selected_outer_fold,4.0,batch_size,"""auto"""
+MLP,selected_outer_fold,4.0,beta_1,0.9
+MLP,selected_outer_fold,4.0,beta_2,0.999
+MLP,selected_outer_fold,4.0,early_stopping,false
+MLP,selected_outer_fold,4.0,epsilon,1e-08
+MLP,selected_outer_fold,4.0,hidden_layer_sizes,[16]
+MLP,selected_outer_fold,4.0,learning_rate,"""constant"""
+MLP,selected_outer_fold,4.0,learning_rate_init,0.001
+MLP,selected_outer_fold,4.0,max_fun,30000
+MLP,selected_outer_fold,4.0,max_iter,3000
+MLP,selected_outer_fold,4.0,momentum,0.9
+MLP,selected_outer_fold,4.0,n_iter_no_change,10
+MLP,selected_outer_fold,4.0,nesterovs_momentum,true
+MLP,selected_outer_fold,4.0,power_t,0.5
+MLP,selected_outer_fold,4.0,random_state,20260926
+MLP,selected_outer_fold,4.0,shuffle,true
+MLP,selected_outer_fold,4.0,solver,"""lbfgs"""
+MLP,selected_outer_fold,4.0,tol,0.0001
+MLP,selected_outer_fold,4.0,validation_fraction,0.1
+MLP,selected_outer_fold,4.0,verbose,false
+MLP,selected_outer_fold,4.0,warm_start,false
+MLP,selected_outer_fold,5.0,activation,"""relu"""
+MLP,selected_outer_fold,5.0,alpha,1.0
+MLP,selected_outer_fold,5.0,batch_size,"""auto"""
+MLP,selected_outer_fold,5.0,beta_1,0.9
+MLP,selected_outer_fold,5.0,beta_2,0.999
+MLP,selected_outer_fold,5.0,early_stopping,false
+MLP,selected_outer_fold,5.0,epsilon,1e-08
+MLP,selected_outer_fold,5.0,hidden_layer_sizes,[16]
+MLP,selected_outer_fold,5.0,learning_rate,"""constant"""
+MLP,selected_outer_fold,5.0,learning_rate_init,0.001
+MLP,selected_outer_fold,5.0,max_fun,30000
+MLP,selected_outer_fold,5.0,max_iter,3000
+MLP,selected_outer_fold,5.0,momentum,0.9
+MLP,selected_outer_fold,5.0,n_iter_no_change,10
+MLP,selected_outer_fold,5.0,nesterovs_momentum,true
+MLP,selected_outer_fold,5.0,power_t,0.5
+MLP,selected_outer_fold,5.0,random_state,20260926
+MLP,selected_outer_fold,5.0,shuffle,true
+MLP,selected_outer_fold,5.0,solver,"""lbfgs"""
+MLP,selected_outer_fold,5.0,tol,0.0001
+MLP,selected_outer_fold,5.0,validation_fraction,0.1
+MLP,selected_outer_fold,5.0,verbose,false
+MLP,selected_outer_fold,5.0,warm_start,false
+MLP,fixed_not_searched,,activation,"""relu"""
+MLP,fixed_not_searched,,batch_size,"""auto"""
+MLP,fixed_not_searched,,beta_1,0.9
+MLP,fixed_not_searched,,beta_2,0.999
+MLP,fixed_not_searched,,early_stopping,false
+MLP,fixed_not_searched,,epsilon,1e-08
+MLP,fixed_not_searched,,learning_rate,"""constant"""
+MLP,fixed_not_searched,,learning_rate_init,0.001
+MLP,fixed_not_searched,,max_fun,30000
+MLP,fixed_not_searched,,max_iter,3000
+MLP,fixed_not_searched,,momentum,0.9
+MLP,fixed_not_searched,,n_iter_no_change,10
+MLP,fixed_not_searched,,nesterovs_momentum,true
+MLP,fixed_not_searched,,power_t,0.5
+MLP,fixed_not_searched,,random_state,20260926
+MLP,fixed_not_searched,,shuffle,true
+MLP,fixed_not_searched,,solver,"""lbfgs"""
+MLP,fixed_not_searched,,tol,0.0001
+MLP,fixed_not_searched,,validation_fraction,0.1
+MLP,fixed_not_searched,,verbose,false
+MLP,fixed_not_searched,,warm_start,false
+MLP,search_grid,,model__hidden_layer_sizes,"[[8], [16]]"
+MLP,search_grid,,model__alpha,"[0.1, 1.0]"

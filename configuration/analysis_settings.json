@@ -1,0 +1,63 @@
+{
+  "seed": 20260926,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "primary_size_criterion": "short_axis_mm > 3",
+  "primary_features": [
+    "nc_ct",
+    "ce_ct",
+    "nc_iodine",
+    "ce_iodine",
+    "nc_zeff",
+    "ce_zeff",
+    "nc_ed",
+    "ce_ed",
+    "ct_70kev",
+    "ct_100kev",
+    "casupp_30",
+    "casupp_70",
+    "short_axis_mm",
+    "long_axis_mm"
+  ],
+  "main_models": [
+    "NodeRADS",
+    "Imaging",
+    "Combined"
+  ],
+  "ridge_C_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "main_tuning_metric": "negative log loss",
+  "threshold": "maximum Youden index on inner out-of-fold training probabilities; highest threshold for ties",
+  "preprocessing": "fold-specific median imputation and standard scaling",
+  "grouping": "source-recorded patient identifiers, not independently verified against hospital records",
+  "outer_assignment": "generated once in full 254-row source table, kept across prespecified cohorts",
+  "bootstrap": "2000 source-group resamples, fixed OOF predictions; two primary AUC contrasts with Holm adjustment",
+  "sensitivity_scenarios": [
+    "all_254",
+    "legacy_249",
+    "reference_augmented",
+    "normalized_CT",
+    "exclude_group_76"
+  ],
+  "exploratory_algorithms": 11,
+  "exploratory_tuning_metric": "ROC AUC",
+  "exploratory_primary_summary": "mean outer-fold ROC AUC; no winner chosen from outer results",
+  "SVM_score": "decision_function, without ungrouped built-in probability calibration",
+  "shap": "linear interventional, all corresponding outer-training nodes as background, log-odds scale",
+  "SHAP_examples": "held-out node closest to 0.5 within each recorded outcome class",
+  "DCA_threshold_range": [
+    0.05,
+    0.5
+  ],
+  "DCA_interpretation": "exploratory selected-node utility, no prospectively defined clinical action",
+  "outcome": "recorded node status assigned under original level-based pathology matching scheme",
+  "patient_level_outcome": "at least one malignant selected node; max node score is not a calibrated patient probability",
+  "class_rebalancing": "none",
+  "univariate_feature_screening": "none",
+  "external_validation": "none"
+}

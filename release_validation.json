@@ -1,0 +1,66 @@
+{
+  "model_privacy": {
+    "pipelines_inspected": 30,
+    "step_classes": [
+      "SimpleImputer",
+      "StandardScaler",
+      "LogisticRegression"
+    ],
+    "training_observation_matrices_found": 0
+  },
+  "workbook_import": {
+    "n_source_nodes": 254,
+    "n_primary_nodes": 248,
+    "n_primary_patients": 130,
+    "n_oof_predictions": 1240,
+    "analysis_run": false,
+    "workbook_sha256": "f87d8345f7040eebfc3c8c2a9097645aaec4f7cc53cf196e5ac0d0c0c4dd2d83"
+  },
+  "python_sources_compile": true,
+  "original_training_prepare": {
+    "source_nodes": 254,
+    "primary_nodes": 248,
+    "same_outer_folds": true,
+    "training_run": false
+  },
+  "full_development_probability_max_abs_errors": {
+    "NodeRADS": 2.220446049250313e-16,
+    "Imaging": 3.3306690738754696e-16,
+    "Combined": 3.3306690738754696e-16,
+    "RoutineCT": 5.551115123125783e-16,
+    "NodeRADS_RoutineCT": 3.3306690738754696e-16
+  },
+  "outer_fold_probability_max_abs_errors": {
+    "NodeRADS/fold1": 4.942712905631197e-13,
+    "NodeRADS/fold2": 4.884981308350689e-13,
+    "NodeRADS/fold3": 4.68292071786891e-13,
+    "NodeRADS/fold4": 1.7486012637846216e-13,
+    "NodeRADS/fold5": 2.844391389089651e-13,
+    "Imaging/fold1": 4.907185768843192e-13,
+    "Imaging/fold2": 4.962419364318293e-13,
+    "Imaging/fold3": 4.617417559416026e-13,
+    "Imaging/fold4": 4.992672941739329e-13,
+    "Imaging/fold5": 4.961586697049825e-13,
+    "Combined/fold1": 4.948264020754323e-13,
+    "Combined/fold2": 4.761746552617296e-13,
+    "Combined/fold3": 4.990452495690079e-13,
+    "Combined/fold4": 4.64406291200703e-13,
+    "Combined/fold5": 4.941602682606572e-13,
+    "RoutineCT/fold1": 0.0,
+    "RoutineCT/fold2": 0.0,
+    "RoutineCT/fold3": 0.0,
+    "RoutineCT/fold4": 0.0,
+    "RoutineCT/fold5": 0.0,
+    "NodeRADS_RoutineCT/fold1": 0.0,
+    "NodeRADS_RoutineCT/fold2": 0.0,
+    "NodeRADS_RoutineCT/fold3": 0.0,
+    "NodeRADS_RoutineCT/fold4": 0.0,
+    "NodeRADS_RoutineCT/fold5": 0.0
+  },
+  "outer_fold_classifications_exact": true,
+  "equivalent_formula_max_abs_difference": 2.55351295663786e-15,
+  "new_model_training_performed": false,
+  "bootstrap_rerun": false,
+  "host_absolute_paths_remaining": 0,
+  "clinical_data_files_in_repository": 0
+}

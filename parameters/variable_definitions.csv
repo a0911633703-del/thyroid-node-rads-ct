@@ -1,0 +1,24 @@
+﻿field,name,unit,definition
+node_rads,Node-RADS,grade,"Final recorded Node-RADS 1.0 grade, entered as a numeric ordinal value from 1 to 5"
+nc_ct,Noncontrast attenuation,HU,Recorded noncontrast nodal CT attenuation
+ce_ct,Contrast-enhanced attenuation,HU,Recorded contrast-enhanced nodal CT attenuation
+nc_iodine,Noncontrast iodine concentration,mg/mL,Recorded noncontrast nodal iodine concentration
+ce_iodine,Contrast-enhanced iodine concentration,mg/mL,Recorded contrast-enhanced nodal iodine concentration
+nc_zeff,Noncontrast effective atomic number,dimensionless,Recorded noncontrast nodal effective atomic number
+ce_zeff,Contrast-enhanced effective atomic number,dimensionless,Recorded contrast-enhanced nodal effective atomic number
+nc_ed,Noncontrast electron density,%EDW,Recorded noncontrast nodal electron density as a percentage of water electron density
+ce_ed,Contrast-enhanced electron density,%EDW,Recorded contrast-enhanced nodal electron density as a percentage of water electron density
+ct_70kev,70-keV attenuation,HU,Recorded nodal attenuation in the 70-keV reconstruction
+ct_100kev,100-keV attenuation,HU,Recorded nodal attenuation in the 100-keV reconstruction
+casupp_30,Calcium-suppression setting 30,HU,Recorded nodal attenuation at manufacturer calcium-suppression setting 30; the setting is not a photon energy
+casupp_70,Calcium-suppression setting 70,HU,Recorded nodal attenuation at manufacturer calcium-suppression setting 70; the setting is not a photon energy
+short_axis_mm,Short-axis diameter,mm,Maximal axial short-axis diameter; primary eligibility requires >3 mm
+long_axis_mm,Long-axis diameter,mm,Recorded axial long-axis diameter
+delta_ct,Attenuation increment,HU,ce_ct - nc_ct
+delta_iodine,Iodine increment,mg/mL,ce_iodine - nc_iodine
+spectral_slope_70_100,70-to-100-keV attenuation slope,HU/keV,(ct_70kev - ct_100kev) / 30
+delta_casupp,Calcium-suppression difference,HU,casupp_70 - casupp_30
+ce_ct_artery,Arterial reference attenuation,HU,Contrast-enhanced CT attenuation in the common carotid artery at the same level
+ce_ct_muscle,Muscle reference attenuation,HU,Contrast-enhanced CT attenuation in erector spinae muscle at the same level
+ct_ratio_artery,Nodal-to-arterial attenuation ratio,dimensionless,ce_ct / ce_ct_artery; a zero denominator produces missing
+ct_ratio_muscle,Nodal-to-muscle attenuation ratio,dimensionless,ce_ct / ce_ct_muscle; a zero denominator produces missing

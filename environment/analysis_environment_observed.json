@@ -1,0 +1,292 @@
+{
+  "captured_date": "2026-10-13",
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "direct_requirements": {
+    "numpy": "2.4.4",
+    "pandas": "2.2.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.5.3",
+    "shap": "0.52.0",
+    "xgboost": "3.3.0",
+    "lightgbm": "4.7.0",
+    "statsmodels": "0.14.6",
+    "matplotlib": "3.10.9",
+    "threadpoolctl": "3.6.0",
+    "Pillow": "12.2.0",
+    "pypdf": "6.9.2",
+    "openpyxl": "3.1.5"
+  },
+  "dependency_closure_versions": {
+    "pypdf": "6.9.2",
+    "pillow": "12.2.0",
+    "threadpoolctl": "3.6.0",
+    "matplotlib": "3.10.9",
+    "python-dateutil": "2.9.0.post0",
+    "six": "1.17.0",
+    "pyparsing": "3.3.2",
+    "packaging": "26.0",
+    "numpy": "2.4.4",
+    "kiwisolver": "1.5.0",
+    "fonttools": "4.63.0",
+    "cycler": "0.12.1",
+    "contourpy": "1.3.3",
+    "statsmodels": "0.14.6",
+    "patsy": "1.0.2",
+    "pandas": "2.2.3",
+    "tzdata": "2026.1",
+    "pytz": "2026.2",
+    "scipy": "1.17.1",
+    "lightgbm": "4.7.0",
+    "narwhals": "2.21.2",
+    "xgboost": "3.3.0",
+    "shap": "0.52.0",
+    "cloudpickle": "3.1.2",
+    "llvmlite": "0.47.0",
+    "numba": "0.65.1",
+    "slicer": "0.0.8",
+    "tqdm": "4.67.3",
+    "colorama": "0.4.6",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.5.3",
+    "openpyxl": "3.1.5",
+    "et-xmlfile": "2.0.0"
+  },
+  "active_dependencies": {
+    "pypdf": [],
+    "pillow": [],
+    "threadpoolctl": [],
+    "matplotlib": [
+      {
+        "requirement": "contourpy>=1.0.1",
+        "dependency": "contourpy"
+      },
+      {
+        "requirement": "cycler>=0.10",
+        "dependency": "cycler"
+      },
+      {
+        "requirement": "fonttools>=4.22.0",
+        "dependency": "fonttools"
+      },
+      {
+        "requirement": "kiwisolver>=1.3.1",
+        "dependency": "kiwisolver"
+      },
+      {
+        "requirement": "numpy>=1.23",
+        "dependency": "numpy"
+      },
+      {
+        "requirement": "packaging>=20.0",
+        "dependency": "packaging"
+      },
+      {
+        "requirement": "pillow>=8",
+        "dependency": "pillow"
+      },
+      {
+        "requirement": "pyparsing>=3",
+        "dependency": "pyparsing"
+      },
+      {
+        "requirement": "python-dateutil>=2.7",
+        "dependency": "python-dateutil"
+      }
+    ],
+    "python-dateutil": [
+      {
+        "requirement": "six >=1.5",
+        "dependency": "six"
+      }
+    ],
+    "six": [],
+    "pyparsing": [],
+    "packaging": [],
+    "numpy": [],
+    "kiwisolver": [],
+    "fonttools": [],
+    "cycler": [],
+    "contourpy": [
+      {
+        "requirement": "numpy>=1.25",
+        "dependency": "numpy"
+      }
+    ],
+    "statsmodels": [
+      {
+        "requirement": "numpy<3,>=1.22.3",
+        "dependency": "numpy"
+      },
+      {
+        "requirement": "scipy!=1.9.2,>=1.8",
+        "dependency": "scipy"
+      },
+      {
+        "requirement": "pandas!=2.1.0,>=1.4",
+        "dependency": "pandas"
+      },
+      {
+        "requirement": "patsy>=0.5.6",
+        "dependency": "patsy"
+      },
+      {
+        "requirement": "packaging>=21.3",
+        "dependency": "packaging"
+      }
+    ],
+    "patsy": [
+      {
+        "requirement": "numpy>=1.4",
+        "dependency": "numpy"
+      }
+    ],
+    "pandas": [
+      {
+        "requirement": "numpy>=1.26.0; python_version >= \"3.12\"",
+        "dependency": "numpy"
+      },
+      {
+        "requirement": "python-dateutil>=2.8.2",
+        "dependency": "python-dateutil"
+      },
+      {
+        "requirement": "pytz>=2020.1",
+        "dependency": "pytz"
+      },
+      {
+        "requirement": "tzdata>=2022.7",
+        "dependency": "tzdata"
+      }
+    ],
+    "tzdata": [],
+    "pytz": [],
+    "scipy": [
+      {
+        "requirement": "numpy<2.7,>=1.26.4",
+        "dependency": "numpy"
+      }
+    ],
+    "lightgbm": [
+      {
+        "requirement": "narwhals>=1.15",
+        "dependency": "narwhals"
+      },
+      {
+        "requirement": "numpy>=1.21.3",
+        "dependency": "numpy"
+      },
+      {
+        "requirement": "scipy",
+        "dependency": "scipy"
+      }
+    ],
+    "narwhals": [],
+    "xgboost": [
+      {
+        "requirement": "numpy",
+        "dependency": "numpy"
+      },
+      {
+        "requirement": "scipy",
+        "dependency": "scipy"
+      }
+    ],
+    "shap": [
+      {
+        "requirement": "numpy>=2",
+        "dependency": "numpy"
+      },
+      {
+        "requirement": "scipy",
+        "dependency": "scipy"
+      },
+      {
+        "requirement": "scikit-learn",
+        "dependency": "scikit-learn"
+      },
+      {
+        "requirement": "pandas",
+        "dependency": "pandas"
+      },
+      {
+        "requirement": "tqdm>=4.27.0",
+        "dependency": "tqdm"
+      },
+      {
+        "requirement": "packaging>20.9",
+        "dependency": "packaging"
+      },
+      {
+        "requirement": "slicer==0.0.8",
+        "dependency": "slicer"
+      },
+      {
+        "requirement": "numba; sys_platform != \"darwin\" or platform_machine != \"x86_64\"",
+        "dependency": "numba"
+      },
+      {
+        "requirement": "llvmlite; sys_platform != \"darwin\" or platform_machine != \"x86_64\"",
+        "dependency": "llvmlite"
+      },
+      {
+        "requirement": "cloudpickle",
+        "dependency": "cloudpickle"
+      }
+    ],
+    "cloudpickle": [],
+    "llvmlite": [],
+    "numba": [
+      {
+        "requirement": "llvmlite<0.48,>=0.47.0dev0",
+        "dependency": "llvmlite"
+      },
+      {
+        "requirement": "numpy>=1.22",
+        "dependency": "numpy"
+      },
+      {
+        "requirement": "numpy<2.5,>=1.22",
+        "dependency": "numpy"
+      }
+    ],
+    "slicer": [],
+    "tqdm": [
+      {
+        "requirement": "colorama; platform_system == \"Windows\"",
+        "dependency": "colorama"
+      }
+    ],
+    "colorama": [],
+    "scikit-learn": [
+      {
+        "requirement": "numpy>=1.24.1",
+        "dependency": "numpy"
+      },
+      {
+        "requirement": "scipy>=1.10.0",
+        "dependency": "scipy"
+      },
+      {
+        "requirement": "joblib>=1.3.0",
+        "dependency": "joblib"
+      },
+      {
+        "requirement": "threadpoolctl>=3.2.0",
+        "dependency": "threadpoolctl"
+      }
+    ],
+    "joblib": [],
+    "openpyxl": [
+      {
+        "requirement": "et-xmlfile",
+        "dependency": "et-xmlfile"
+      }
+    ],
+    "et-xmlfile": []
+  },
+  "missing_distributions": [],
+  "fresh_install_tested": false,
+  "full_retraining_tested_during_packaging": false
+}

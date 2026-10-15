@@ -1,0 +1,113 @@
+{
+  "analysis_id": "Revision_incremental_DECT_20261010",
+  "planned_before_new_model_fitting": true,
+  "planned_at": "2026-10-10",
+  "status": "Added after primary validation; post hoc exploratory extension. Not a prospectively frozen primary contrast or a new unseen validation cohort.",
+  "input": "analysis/cohort_primary.csv; 248 selected nodes, 130 recorded source groups, 84 malignant/164 benign; no hospital patient linkage verified",
+  "routine_feature_subset": [
+    "nc_ct",
+    "ce_ct",
+    "short_axis_mm",
+    "long_axis_mm"
+  ],
+  "spectral_feature_subset": [
+    "nc_iodine",
+    "ce_iodine",
+    "nc_zeff",
+    "ce_zeff",
+    "nc_ed",
+    "ce_ed",
+    "ct_70kev",
+    "ct_100kev",
+    "casupp_30",
+    "casupp_70"
+  ],
+  "new_models": {
+    "RoutineCT": [
+      "nc_ct",
+      "ce_ct",
+      "short_axis_mm",
+      "long_axis_mm"
+    ],
+    "NodeRADS_RoutineCT": [
+      "nc_ct",
+      "ce_ct",
+      "short_axis_mm",
+      "long_axis_mm",
+      "node_rads"
+    ]
+  },
+  "reused_original_models": {
+    "NodeRADS": 1,
+    "Imaging": 14,
+    "Combined": 15
+  },
+  "comparisons": [
+    {
+      "comparison": "Combined - NodeRADS_RoutineCT",
+      "increment": "10 spectral measurements beyond routine CT plus Node-RADS"
+    },
+    {
+      "comparison": "NodeRADS_RoutineCT - NodeRADS",
+      "increment": "4 routine CT measurements beyond Node-RADS"
+    },
+    {
+      "comparison": "Imaging - RoutineCT",
+      "increment": "10 spectral measurements beyond routine CT"
+    },
+    {
+      "comparison": "Combined - RoutineCT",
+      "increment": "Node-RADS plus 10 spectral measurements; not an isolated spectral increment"
+    },
+    {
+      "comparison": "Combined - NodeRADS",
+      "increment": "Reused primary comparison, provided descriptively for subgroup transitions only"
+    }
+  ],
+  "outer_allocation": "Existing outer_fold in the fixed cohort, generated originally from all 254 source records; never recreated.",
+  "inner_splits": "Exactly training.grouped_splits(outer_training_frame,3,20260926+outer_fold); export node-level mappings.",
+  "seed": 20260926,
+  "C_grid": [
+    0.01,
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "estimator": "LogisticRegression(max_iter=5000, solver=lbfgs, random_state=20260926)",
+  "preprocessing": "SimpleImputer median keep_empty_features=True and StandardScaler, training-fold only.",
+  "tuning": "GridSearchCV neg_log_loss, 3 grouped inner folds, n_jobs=1, refit=True, error_score=raise.",
+  "threshold": "Inner OOF probabilities; maximum Youden index with highest threshold for ties; no subgroup selection.",
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20260926,
+  "bootstrap": "Sample 130 recorded groups with replacement, retain all node multiplicities; same draws across all model metrics, new paired contrasts and category-specific transition summaries. Fixed OOF predictions, thresholds and calibration bin boundaries; no classifier refitting or retuning. Calibration parameter estimation follows the existing evaluation routine.",
+  "new_contrast_metrics": [
+    "roc_auc",
+    "average_precision",
+    "brier_score",
+    "log_loss"
+  ],
+  "inference": "95% exploratory percentile CIs, no new confirmatory P values or Holm family changes. Existing primary estimates/comparisons remain unchanged.",
+  "classification_subsets": {
+    "all": 248,
+    "NodeRADS2": 90,
+    "NodeRADS3": 48,
+    "NodeRADS2or3": 138
+  },
+  "transition_metrics": [
+    "corrected_FN",
+    "new_FN",
+    "corrected_FP",
+    "new_FP",
+    "net_corrected_nodes",
+    "accuracy_difference",
+    "sensitivity_difference",
+    "specificity_difference"
+  ],
+  "transition_interpretation": "Agreement with recorded node outcome, not demonstrated treatment benefit or specimen-by-specimen verified malignant status. No independent-node McNemar testing.",
+  "routine_definition_limit": "Routine CT denotes the four-feature subset from the same source imaging examinations, not an independently acquired conventional CT cohort.",
+  "spectral_definition_limit": "Increment tests the additional ten-input block; it does not establish causal effects or independent benefits of individual spectral measures.",
+  "moderate_probability_examples": "Reuse existing SHAP example node/group/fold/probabilities; append actual frozen outer thresholds/predictions. Probability near0.5 is not the decision boundary; no SHAP recalculation.",
+  "workers": 1,
+  "BLAS_threads": 1
+}

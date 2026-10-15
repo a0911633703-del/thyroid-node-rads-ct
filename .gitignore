@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+outputs/
+Analysis Workspace/
+Analysis_Workspace/
+source_measurements/
+analysis/
+Supplementary Data.xlsx
+*.xlsx
+*.zip

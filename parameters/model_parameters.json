@@ -1,0 +1,638 @@
+{
+  "schema_version": 1,
+  "numerical_precision": "JSON float round-trip representation and CSV 17 significant digits; use binary64 arithmetic.",
+  "model_scope": "Full-development model coefficients and preprocessing parameters. Outer-fold predictions and thresholds define the internal evaluation results.",
+  "formula_standardized": "z = standardized_intercept + sum(standardized_coefficient[j] * (imputed_x[j]-training_mean[j])/training_scale[j]); p=1/(1+exp(-z)).",
+  "formula_original_units": "z = original_unit_intercept + sum(original_unit_coefficient[j] * imputed_x[j]); p=1/(1+exp(-z)).",
+  "models": {
+    "NodeRADS": {
+      "feature_order": [
+        "node_rads"
+      ],
+      "n_features": 1,
+      "positive_class": 1,
+      "negative_class": 0,
+      "target": "recorded malignant status of a selected imaged cervical node",
+      "fit_scope": "full-development fit using all 248 primary nodes, not the outer OOF models",
+      "C": 10.0,
+      "standardized_intercept": -1.1247388929477828,
+      "original_unit_intercept": -6.816738303477729,
+      "features": [
+        {
+          "feature": "node_rads",
+          "unit": "grade",
+          "imputation_median": 2.0,
+          "training_mean": 2.068548387096774,
+          "training_scale": 1.0077015475571185,
+          "training_variance": 1.0154624089490116,
+          "standardized_coefficient": 2.772880078834187,
+          "original_unit_coefficient": 2.7516878241938145
+        }
+      ],
+      "preprocessing": {
+        "imputation": "training median",
+        "retains_zero_values": true,
+        "scaling": "(imputed measurement-training_mean)/training_scale",
+        "SD_convention": "population ddof=0 after imputation"
+      },
+      "saved_pipeline_path": "saved_models/primary/NodeRADS_full_development_model.joblib",
+      "saved_pipeline_SHA256": "f9ffd891acb0850ec91bdff983833b69acb7c15dc544f37d82f9795246a3616f",
+      "estimator_parameters": {
+        "C": 10.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 5000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 20260926,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "classification_threshold": null,
+      "threshold_note": "No universal clinical threshold is supplied for a full-development fit. Evaluation used fold-specific inner-OOF Youden thresholds."
+    },
+    "Imaging": {
+      "feature_order": [
+        "nc_ct",
+        "ce_ct",
+        "nc_iodine",
+        "ce_iodine",
+        "nc_zeff",
+        "ce_zeff",
+        "nc_ed",
+        "ce_ed",
+        "ct_70kev",
+        "ct_100kev",
+        "casupp_30",
+        "casupp_70",
+        "short_axis_mm",
+        "long_axis_mm"
+      ],
+      "n_features": 14,
+      "positive_class": 1,
+      "negative_class": 0,
+      "target": "recorded malignant status of a selected imaged cervical node",
+      "fit_scope": "full-development fit using all 248 primary nodes, not the outer OOF models",
+      "C": 0.1,
+      "standardized_intercept": -0.7786997455842509,
+      "original_unit_intercept": -3.843910801046113,
+      "features": [
+        {
+          "feature": "nc_ct",
+          "unit": "HU",
+          "imputation_median": 43.0,
+          "training_mean": 42.516935483870974,
+          "training_scale": 14.741786788090344,
+          "training_variance": 217.32027770551505,
+          "standardized_coefficient": -0.07963827204574683,
+          "original_unit_coefficient": -0.005402212987511482
+        },
+        {
+          "feature": "ce_ct",
+          "unit": "HU",
+          "imputation_median": 85.7,
+          "training_mean": 92.43548387096774,
+          "training_scale": 38.46620886916033,
+          "training_variance": 1479.6492247658691,
+          "standardized_coefficient": 0.7838038174853933,
+          "original_unit_coefficient": 0.020376424933152053
+        },
+        {
+          "feature": "nc_iodine",
+          "unit": "mg/mL",
+          "imputation_median": 0.21,
+          "training_mean": 0.349758064516129,
+          "training_scale": 0.5095023880245366,
+          "training_variance": 0.25959268340270547,
+          "standardized_coefficient": 0.3946272581731353,
+          "original_unit_coefficient": 0.774534658617009
+        },
+        {
+          "feature": "ce_iodine",
+          "unit": "mg/mL",
+          "imputation_median": 1.605,
+          "training_mean": 2.005201612903226,
+          "training_scale": 1.347109195707122,
+          "training_variance": 1.8147031851586892,
+          "standardized_coefficient": 0.48402089902247997,
+          "original_unit_coefficient": 0.3593033887415553
+        },
+        {
+          "feature": "nc_zeff",
+          "unit": "dimensionless",
+          "imputation_median": 7.38,
+          "training_mean": 7.358548387096774,
+          "training_scale": 0.4637056100803387,
+          "training_variance": 0.21502289281997913,
+          "standardized_coefficient": -0.35625003547915146,
+          "original_unit_coefficient": -0.7682676847869704
+        },
+        {
+          "feature": "ce_zeff",
+          "unit": "dimensionless",
+          "imputation_median": 8.19,
+          "training_mean": 8.274193548387096,
+          "training_scale": 0.7402981055761706,
+          "training_variance": 0.548041285119667,
+          "standardized_coefficient": 0.15250899204870674,
+          "original_unit_coefficient": 0.20601024222533934
+        },
+        {
+          "feature": "nc_ed",
+          "unit": "%EDW",
+          "imputation_median": 103.4,
+          "training_mean": 103.31935483870969,
+          "training_scale": 1.38768648379787,
+          "training_variance": 1.9256737773152963,
+          "standardized_coefficient": -0.1749314830736124,
+          "original_unit_coefficient": -0.12605980177514856
+        },
+        {
+          "feature": "ce_ed",
+          "unit": "%EDW",
+          "imputation_median": 103.75,
+          "training_mean": 103.8450806451613,
+          "training_scale": 1.8050962783578939,
+          "training_variance": 3.2583725741415193,
+          "standardized_coefficient": 0.27124743588763883,
+          "original_unit_coefficient": 0.15026757250554754
+        },
+        {
+          "feature": "ct_70kev",
+          "unit": "HU",
+          "imputation_median": 44.8,
+          "training_mean": 55.539032258064516,
+          "training_scale": 34.43539185150507,
+          "training_variance": 1185.7962119667013,
+          "standardized_coefficient": 0.16213509717069038,
+          "original_unit_coefficient": 0.004708385427117013
+        },
+        {
+          "feature": "ct_100kev",
+          "unit": "HU",
+          "imputation_median": 41.349999999999994,
+          "training_mean": 45.7091935483871,
+          "training_scale": 20.28150928073339,
+          "training_variance": 411.33961870447456,
+          "standardized_coefficient": 0.17439389070072417,
+          "original_unit_coefficient": 0.008598664344294698
+        },
+        {
+          "feature": "casupp_30",
+          "unit": "HU",
+          "imputation_median": 5.1,
+          "training_mean": -27.652822580645164,
+          "training_scale": 93.34801209988768,
+          "training_variance": 8713.851363000778,
+          "standardized_coefficient": -0.05289467700022619,
+          "original_unit_coefficient": -0.000566639565324925
+        },
+        {
+          "feature": "casupp_70",
+          "unit": "HU",
+          "imputation_median": 23.65,
+          "training_mean": 13.891935483870967,
+          "training_scale": 32.49647771675936,
+          "training_variance": 1056.0210639958377,
+          "standardized_coefficient": 0.06675477883254967,
+          "original_unit_coefficient": 0.0020542158265393277
+        },
+        {
+          "feature": "short_axis_mm",
+          "unit": "mm",
+          "imputation_median": 6.5,
+          "training_mean": 7.078629032258065,
+          "training_scale": 3.1720151920367545,
+          "training_variance": 10.061680378511968,
+          "standardized_coefficient": 0.7575301551731659,
+          "original_unit_coefficient": 0.2388166857065886
+        },
+        {
+          "feature": "long_axis_mm",
+          "unit": "mm",
+          "imputation_median": 10.0,
+          "training_mean": 10.659274193548388,
+          "training_scale": 4.505274090940008,
+          "training_variance": 20.29749463449532,
+          "standardized_coefficient": -0.25384517951738383,
+          "original_unit_coefficient": -0.05634400358190416
+        }
+      ],
+      "preprocessing": {
+        "imputation": "training median",
+        "retains_zero_values": true,
+        "scaling": "(imputed measurement-training_mean)/training_scale",
+        "SD_convention": "population ddof=0 after imputation"
+      },
+      "saved_pipeline_path": "saved_models/primary/Imaging_full_development_model.joblib",
+      "saved_pipeline_SHA256": "ca99babbec79afd55855ea67e9ed7ed61fae72123be6be14d55be31d2b172061",
+      "estimator_parameters": {
+        "C": 0.1,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 5000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 20260926,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "classification_threshold": null,
+      "threshold_note": "No universal clinical threshold is supplied for a full-development fit. Evaluation used fold-specific inner-OOF Youden thresholds."
+    },
+    "Combined": {
+      "feature_order": [
+        "nc_ct",
+        "ce_ct",
+        "nc_iodine",
+        "ce_iodine",
+        "nc_zeff",
+        "ce_zeff",
+        "nc_ed",
+        "ce_ed",
+        "ct_70kev",
+        "ct_100kev",
+        "casupp_30",
+        "casupp_70",
+        "short_axis_mm",
+        "long_axis_mm",
+        "node_rads"
+      ],
+      "n_features": 15,
+      "positive_class": 1,
+      "negative_class": 0,
+      "target": "recorded malignant status of a selected imaged cervical node",
+      "fit_scope": "full-development fit using all 248 primary nodes, not the outer OOF models",
+      "C": 1.0,
+      "standardized_intercept": -1.5358329030551725,
+      "original_unit_intercept": 46.778395703650595,
+      "features": [
+        {
+          "feature": "nc_ct",
+          "unit": "HU",
+          "imputation_median": 43.0,
+          "training_mean": 42.516935483870974,
+          "training_scale": 14.741786788090344,
+          "training_variance": 217.32027770551505,
+          "standardized_coefficient": -0.22426682383605503,
+          "original_unit_coefficient": -0.015213001453611895
+        },
+        {
+          "feature": "ce_ct",
+          "unit": "HU",
+          "imputation_median": 85.7,
+          "training_mean": 92.43548387096774,
+          "training_scale": 38.46620886916033,
+          "training_variance": 1479.6492247658691,
+          "standardized_coefficient": 1.8848030962674274,
+          "original_unit_coefficient": 0.0489989305335088
+        },
+        {
+          "feature": "nc_iodine",
+          "unit": "mg/mL",
+          "imputation_median": 0.21,
+          "training_mean": 0.349758064516129,
+          "training_scale": 0.5095023880245366,
+          "training_variance": 0.25959268340270547,
+          "standardized_coefficient": 0.1024599087642789,
+          "original_unit_coefficient": 0.20109799516650084
+        },
+        {
+          "feature": "ce_iodine",
+          "unit": "mg/mL",
+          "imputation_median": 1.605,
+          "training_mean": 2.005201612903226,
+          "training_scale": 1.347109195707122,
+          "training_variance": 1.8147031851586892,
+          "standardized_coefficient": 0.5157861884654797,
+          "original_unit_coefficient": 0.38288372621102496
+        },
+        {
+          "feature": "nc_zeff",
+          "unit": "dimensionless",
+          "imputation_median": 7.38,
+          "training_mean": 7.358548387096774,
+          "training_scale": 0.4637056100803387,
+          "training_variance": 0.21502289281997913,
+          "standardized_coefficient": -0.3791407467487241,
+          "original_unit_coefficient": -0.8176324342572361
+        },
+        {
+          "feature": "ce_zeff",
+          "unit": "dimensionless",
+          "imputation_median": 8.19,
+          "training_mean": 8.274193548387096,
+          "training_scale": 0.7402981055761706,
+          "training_variance": 0.548041285119667,
+          "standardized_coefficient": -0.5989920348938159,
+          "original_unit_coefficient": -0.8091227444484992
+        },
+        {
+          "feature": "nc_ed",
+          "unit": "%EDW",
+          "imputation_median": 103.4,
+          "training_mean": 103.31935483870969,
+          "training_scale": 1.38768648379787,
+          "training_variance": 1.9256737773152963,
+          "standardized_coefficient": -0.3854938797112063,
+          "original_unit_coefficient": -0.2777960902639715
+        },
+        {
+          "feature": "ce_ed",
+          "unit": "%EDW",
+          "imputation_median": 103.75,
+          "training_mean": 103.8450806451613,
+          "training_scale": 1.8050962783578939,
+          "training_variance": 3.2583725741415193,
+          "standardized_coefficient": -0.3115865948758191,
+          "original_unit_coefficient": -0.1726149450373202
+        },
+        {
+          "feature": "ct_70kev",
+          "unit": "HU",
+          "imputation_median": 44.8,
+          "training_mean": 55.539032258064516,
+          "training_scale": 34.43539185150507,
+          "training_variance": 1185.7962119667013,
+          "standardized_coefficient": 0.35347227351090277,
+          "original_unit_coefficient": 0.010264796028317986
+        },
+        {
+          "feature": "ct_100kev",
+          "unit": "HU",
+          "imputation_median": 41.349999999999994,
+          "training_mean": 45.7091935483871,
+          "training_scale": 20.28150928073339,
+          "training_variance": 411.33961870447456,
+          "standardized_coefficient": 0.029531809093619923,
+          "original_unit_coefficient": 0.0014560952385172807
+        },
+        {
+          "feature": "casupp_30",
+          "unit": "HU",
+          "imputation_median": 5.1,
+          "training_mean": -27.652822580645164,
+          "training_scale": 93.34801209988768,
+          "training_variance": 8713.851363000778,
+          "standardized_coefficient": -0.024233722395727006,
+          "original_unit_coefficient": -0.0002596061967532372
+        },
+        {
+          "feature": "casupp_70",
+          "unit": "HU",
+          "imputation_median": 23.65,
+          "training_mean": 13.891935483870967,
+          "training_scale": 32.49647771675936,
+          "training_variance": 1056.0210639958377,
+          "standardized_coefficient": 0.43048877592192597,
+          "original_unit_coefficient": 0.013247244199020089
+        },
+        {
+          "feature": "short_axis_mm",
+          "unit": "mm",
+          "imputation_median": 6.5,
+          "training_mean": 7.078629032258065,
+          "training_scale": 3.1720151920367545,
+          "training_variance": 10.061680378511968,
+          "standardized_coefficient": 1.0820175730536103,
+          "original_unit_coefficient": 0.34111361628089987
+        },
+        {
+          "feature": "long_axis_mm",
+          "unit": "mm",
+          "imputation_median": 10.0,
+          "training_mean": 10.659274193548388,
+          "training_scale": 4.505274090940008,
+          "training_variance": 20.29749463449532,
+          "standardized_coefficient": -0.8276969884390833,
+          "original_unit_coefficient": -0.18371734365808307
+        },
+        {
+          "feature": "node_rads",
+          "unit": "grade",
+          "imputation_median": 2.0,
+          "training_mean": 2.068548387096774,
+          "training_scale": 1.0077015475571185,
+          "training_variance": 1.0154624089490116,
+          "standardized_coefficient": 2.445226978378084,
+          "original_unit_coefficient": 2.426538873841993
+        }
+      ],
+      "preprocessing": {
+        "imputation": "training median",
+        "retains_zero_values": true,
+        "scaling": "(imputed measurement-training_mean)/training_scale",
+        "SD_convention": "population ddof=0 after imputation"
+      },
+      "saved_pipeline_path": "saved_models/primary/Combined_full_development_model.joblib",
+      "saved_pipeline_SHA256": "a55f3fd6770273abd7c5b355fd7ffd1d80ac1edc79729715f095e930858bade3",
+      "estimator_parameters": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 5000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 20260926,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "classification_threshold": null,
+      "threshold_note": "No universal clinical threshold is supplied for a full-development fit. Evaluation used fold-specific inner-OOF Youden thresholds."
+    },
+    "RoutineCT": {
+      "feature_order": [
+        "nc_ct",
+        "ce_ct",
+        "short_axis_mm",
+        "long_axis_mm"
+      ],
+      "n_features": 4,
+      "positive_class": 1,
+      "negative_class": 0,
+      "target": "recorded malignant status of a selected imaged cervical node",
+      "fit_scope": "full-development fit using all 248 primary nodes, not the outer OOF models",
+      "C": 10.0,
+      "standardized_intercept": -0.9212306240277117,
+      "original_unit_intercept": -5.843950581395659,
+      "features": [
+        {
+          "feature": "nc_ct",
+          "unit": "HU",
+          "imputation_median": 43.0,
+          "training_mean": 42.516935483870974,
+          "training_scale": 14.741786788090344,
+          "training_variance": 217.32027770551505,
+          "standardized_coefficient": -0.5046580105821071,
+          "original_unit_coefficient": -0.03423316439427901
+        },
+        {
+          "feature": "ce_ct",
+          "unit": "HU",
+          "imputation_median": 85.7,
+          "training_mean": 92.43548387096774,
+          "training_scale": 38.46620886916033,
+          "training_variance": 1479.6492247658691,
+          "standardized_coefficient": 2.1522672798077638,
+          "original_unit_coefficient": 0.05595215497135486
+        },
+        {
+          "feature": "short_axis_mm",
+          "unit": "mm",
+          "imputation_median": 6.5,
+          "training_mean": 7.078629032258065,
+          "training_scale": 3.1720151920367545,
+          "training_variance": 10.061680378511968,
+          "standardized_coefficient": 2.923867238721493,
+          "original_unit_coefficient": 0.9217696201650517
+        },
+        {
+          "feature": "long_axis_mm",
+          "unit": "mm",
+          "imputation_median": 10.0,
+          "training_mean": 10.659274193548388,
+          "training_scale": 4.505274090940008,
+          "training_variance": 20.29749463449532,
+          "standardized_coefficient": -2.247980750245066,
+          "original_unit_coefficient": -0.49896647903524854
+        }
+      ],
+      "preprocessing": {
+        "imputation": "training median",
+        "retains_zero_values": true,
+        "scaling": "(imputed measurement-training_mean)/training_scale",
+        "SD_convention": "population ddof=0 after imputation"
+      },
+      "saved_pipeline_path": "saved_models/conventional_controls/RoutineCT_full_development_model.joblib",
+      "saved_pipeline_SHA256": "3a833bfdb45d56c60dc5d478a9d74d885592b602d8ff2ce451b7607c7dcc5f34",
+      "estimator_parameters": {
+        "C": 10.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 5000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 20260926,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "classification_threshold": null,
+      "threshold_note": "No universal clinical threshold is supplied for a full-development fit. Evaluation used fold-specific inner-OOF Youden thresholds."
+    },
+    "NodeRADS_RoutineCT": {
+      "feature_order": [
+        "nc_ct",
+        "ce_ct",
+        "short_axis_mm",
+        "long_axis_mm",
+        "node_rads"
+      ],
+      "n_features": 5,
+      "positive_class": 1,
+      "negative_class": 0,
+      "target": "recorded malignant status of a selected imaged cervical node",
+      "fit_scope": "full-development fit using all 248 primary nodes, not the outer OOF models",
+      "C": 10.0,
+      "standardized_intercept": -1.7608255991670334,
+      "original_unit_intercept": -11.32988435306013,
+      "features": [
+        {
+          "feature": "nc_ct",
+          "unit": "HU",
+          "imputation_median": 43.0,
+          "training_mean": 42.516935483870974,
+          "training_scale": 14.741786788090344,
+          "training_variance": 217.32027770551505,
+          "standardized_coefficient": -0.41908657176005154,
+          "original_unit_coefficient": -0.028428478703723007
+        },
+        {
+          "feature": "ce_ct",
+          "unit": "HU",
+          "imputation_median": 85.7,
+          "training_mean": 92.43548387096774,
+          "training_scale": 38.46620886916033,
+          "training_variance": 1479.6492247658691,
+          "standardized_coefficient": 2.063431671830607,
+          "original_unit_coefficient": 0.053642709601281514
+        },
+        {
+          "feature": "short_axis_mm",
+          "unit": "mm",
+          "imputation_median": 6.5,
+          "training_mean": 7.078629032258065,
+          "training_scale": 3.1720151920367545,
+          "training_variance": 10.061680378511968,
+          "standardized_coefficient": 1.7058596541231048,
+          "original_unit_coefficient": 0.5377842005314516
+        },
+        {
+          "feature": "long_axis_mm",
+          "unit": "mm",
+          "imputation_median": 10.0,
+          "training_mean": 10.659274193548388,
+          "training_scale": 4.505274090940008,
+          "training_variance": 20.29749463449532,
+          "standardized_coefficient": -1.6347355258703182,
+          "original_unit_coefficient": -0.362849294598464
+        },
+        {
+          "feature": "node_rads",
+          "unit": "grade",
+          "imputation_median": 2.0,
+          "training_mean": 2.068548387096774,
+          "training_scale": 1.0077015475571185,
+          "training_variance": 1.0154624089490116,
+          "standardized_coefficient": 2.8645607924247085,
+          "original_unit_coefficient": 2.8426678507828127
+        }
+      ],
+      "preprocessing": {
+        "imputation": "training median",
+        "retains_zero_values": true,
+        "scaling": "(imputed measurement-training_mean)/training_scale",
+        "SD_convention": "population ddof=0 after imputation"
+      },
+      "saved_pipeline_path": "saved_models/conventional_controls/NodeRADS_RoutineCT_full_development_model.joblib",
+      "saved_pipeline_SHA256": "4a14d8aeffa7b7a69d3b149f762d659b2b99523943fad39dac5058cb95c92806",
+      "estimator_parameters": {
+        "C": 10.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 5000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 20260926,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "classification_threshold": null,
+      "threshold_note": "No universal clinical threshold is supplied for a full-development fit. Evaluation used fold-specific inner-OOF Youden thresholds."
+    }
+  }
+}

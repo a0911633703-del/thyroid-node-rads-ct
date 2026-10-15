@@ -1,0 +1,169 @@
+{
+  "variables": [
+    {
+      "field": "node_rads",
+      "name": "Node-RADS",
+      "unit": "grade",
+      "definition": "Final recorded Node-RADS 1.0 grade, entered as a numeric ordinal value from 1 to 5",
+      "analysis_role": "primary"
+    },
+    {
+      "field": "nc_ct",
+      "name": "Noncontrast attenuation",
+      "unit": "HU",
+      "definition": "Recorded noncontrast nodal CT attenuation",
+      "analysis_role": "primary"
+    },
+    {
+      "field": "ce_ct",
+      "name": "Contrast-enhanced attenuation",
+      "unit": "HU",
+      "definition": "Recorded contrast-enhanced nodal CT attenuation",
+      "analysis_role": "primary"
+    },
+    {
+      "field": "nc_iodine",
+      "name": "Noncontrast iodine concentration",
+      "unit": "mg/mL",
+      "definition": "Recorded noncontrast nodal iodine concentration",
+      "analysis_role": "primary"
+    },
+    {
+      "field": "ce_iodine",
+      "name": "Contrast-enhanced iodine concentration",
+      "unit": "mg/mL",
+      "definition": "Recorded contrast-enhanced nodal iodine concentration",
+      "analysis_role": "primary"
+    },
+    {
+      "field": "nc_zeff",
+      "name": "Noncontrast effective atomic number",
+      "unit": "dimensionless",
+      "definition": "Recorded noncontrast nodal effective atomic number",
+      "analysis_role": "primary"
+    },
+    {
+      "field": "ce_zeff",
+      "name": "Contrast-enhanced effective atomic number",
+      "unit": "dimensionless",
+      "definition": "Recorded contrast-enhanced nodal effective atomic number",
+      "analysis_role": "primary"
+    },
+    {
+      "field": "nc_ed",
+      "name": "Noncontrast electron density",
+      "unit": "%EDW",
+      "definition": "Recorded noncontrast nodal electron density as a percentage of water electron density",
+      "analysis_role": "primary"
+    },
+    {
+      "field": "ce_ed",
+      "name": "Contrast-enhanced electron density",
+      "unit": "%EDW",
+      "definition": "Recorded contrast-enhanced nodal electron density as a percentage of water electron density",
+      "analysis_role": "primary"
+    },
+    {
+      "field": "ct_70kev",
+      "name": "70-keV attenuation",
+      "unit": "HU",
+      "definition": "Recorded nodal attenuation in the 70-keV reconstruction",
+      "analysis_role": "primary"
+    },
+    {
+      "field": "ct_100kev",
+      "name": "100-keV attenuation",
+      "unit": "HU",
+      "definition": "Recorded nodal attenuation in the 100-keV reconstruction",
+      "analysis_role": "primary"
+    },
+    {
+      "field": "casupp_30",
+      "name": "Calcium-suppression setting 30",
+      "unit": "HU",
+      "definition": "Recorded nodal attenuation at manufacturer calcium-suppression setting 30; the setting is not a photon energy",
+      "analysis_role": "primary"
+    },
+    {
+      "field": "casupp_70",
+      "name": "Calcium-suppression setting 70",
+      "unit": "HU",
+      "definition": "Recorded nodal attenuation at manufacturer calcium-suppression setting 70; the setting is not a photon energy",
+      "analysis_role": "primary"
+    },
+    {
+      "field": "short_axis_mm",
+      "name": "Short-axis diameter",
+      "unit": "mm",
+      "definition": "Maximal axial short-axis diameter; primary eligibility requires >3 mm",
+      "analysis_role": "primary"
+    },
+    {
+      "field": "long_axis_mm",
+      "name": "Long-axis diameter",
+      "unit": "mm",
+      "definition": "Recorded axial long-axis diameter",
+      "analysis_role": "primary"
+    },
+    {
+      "field": "delta_ct",
+      "name": "Attenuation increment",
+      "unit": "HU",
+      "definition": "ce_ct - nc_ct",
+      "analysis_role": "secondary"
+    },
+    {
+      "field": "delta_iodine",
+      "name": "Iodine increment",
+      "unit": "mg/mL",
+      "definition": "ce_iodine - nc_iodine",
+      "analysis_role": "secondary"
+    },
+    {
+      "field": "spectral_slope_70_100",
+      "name": "70-to-100-keV attenuation slope",
+      "unit": "HU/keV",
+      "definition": "(ct_70kev - ct_100kev) / 30",
+      "analysis_role": "secondary"
+    },
+    {
+      "field": "delta_casupp",
+      "name": "Calcium-suppression difference",
+      "unit": "HU",
+      "definition": "casupp_70 - casupp_30",
+      "analysis_role": "secondary"
+    },
+    {
+      "field": "ce_ct_artery",
+      "name": "Arterial reference attenuation",
+      "unit": "HU",
+      "definition": "Contrast-enhanced CT attenuation in the common carotid artery at the same level",
+      "analysis_role": "secondary"
+    },
+    {
+      "field": "ce_ct_muscle",
+      "name": "Muscle reference attenuation",
+      "unit": "HU",
+      "definition": "Contrast-enhanced CT attenuation in erector spinae muscle at the same level",
+      "analysis_role": "secondary"
+    },
+    {
+      "field": "ct_ratio_artery",
+      "name": "Nodal-to-arterial attenuation ratio",
+      "unit": "dimensionless",
+      "definition": "ce_ct / ce_ct_artery; a zero denominator produces missing",
+      "analysis_role": "secondary"
+    },
+    {
+      "field": "ct_ratio_muscle",
+      "name": "Nodal-to-muscle attenuation ratio",
+      "unit": "dimensionless",
+      "definition": "ce_ct / ce_ct_muscle; a zero denominator produces missing",
+      "analysis_role": "secondary"
+    }
+  ],
+  "count": 23,
+  "primary_inputs": 15,
+  "secondary_variables": 8,
+  "note": "These are 15 primary inputs plus eight secondary recorded or derived variables, not 23 derived predictors."
+}
